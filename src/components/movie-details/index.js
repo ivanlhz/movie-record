@@ -1,5 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './style.css';
+import movies from '../../data/movies.json';
 
-const MovieDetails = () => <h1>Movie Details</h1>;
+class MovieDetails extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = movies.find(movie => movie.id === parseInt(props.match.params.id));
+  }
+
+  render() {
+    return (
+      <div class="">
+        <h1>{this.state.title}</h1>
+        <img src={this.state.poster} alt={this.state.title} />
+        <ul>
+          <li>
+            <b>Year:</b> {this.state.year}
+          </li>
+          <li>
+            <b>Genre:</b> {this.state.genre}
+          </li>
+          <li>
+            <b>Director:</b> {this.state.director}
+          </li>
+        </ul>
+        <p>{this.state.plot}</p>
+      </div>
+    );
+  }
+}
+
 export default MovieDetails;
