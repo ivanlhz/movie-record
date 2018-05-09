@@ -6,12 +6,12 @@ class MovieDetails extends Component {
   constructor(props) {
     super(props);
 
-    this.state = movies.find(movie => movie.id === parseInt(props.match.params.id));
+    this.state = movies.find(movie => movie.id === parseInt(props.match.params.id, 10));
   }
 
   render() {
     return (
-      <div class="">
+      <div class="details">
         <h1>{this.state.title}</h1>
         <img src={this.state.poster} alt={this.state.title} />
         <ul>
