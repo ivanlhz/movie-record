@@ -1,5 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
-const MovieCard = () => <h1>MovieCard</h1>;
+const MovieCard = props => (
+  <div className="card">
+    <h2>
+      <Link to={`movies/${props.id}`}>{props.title}</Link>
+    </h2>
+  </div>
+);
 export default MovieCard;
