@@ -14,10 +14,12 @@ class Search extends Component {
 
   parseJsonFile = jsonFile => JSON.parse(JSON.stringify(jsonFile));
 
-  getMovies = () =>
-    this.parseJsonFile(movies)
+  getMovies = () => {
+    const response = this.parseJsonFile(movies)
       .filter(movie => movie.title.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0)
       .map(movie => <MovieCard key={movie.id} {...movie} />);
+    return response.length > 0 ? response : <h2> Not Found </h2>;
+  };
 
   render() {
     return (
