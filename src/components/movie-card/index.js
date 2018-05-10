@@ -4,9 +4,9 @@ import './style.css';
 
 const MovieCard = props => (
   <div className="card">
-    <h2>
-      <Link to={`movies/${props.id}`}>{props.title}</Link>
-    </h2>
+    <Link to={`movies/${props.id}`}>
+      <img src={props.poster} alt="" />
+    </Link>
   </div>
 );
 export default MovieCard;

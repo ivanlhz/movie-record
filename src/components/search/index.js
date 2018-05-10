@@ -21,17 +21,26 @@ class Search extends Component {
 
   render() {
     return (
-      <div className="search">
-        <header>
-          <h1>Search</h1>
-          <input
-            onChange={this.handleSearchTerm}
-            value={this.state.searchTerm}
-            placeholder="type title to search..."
-            type="text"
-          />
-        </header>
-        <div className="movie-list">{this.getMovies()}</div>
+      <div className="layout">
+        <div className="nav">
+          <div className="title">
+            <h2>
+              Search: <span>{this.state.searchTerm}</span>
+            </h2>
+          </div>
+          <div className="search">
+            <input
+              onChange={this.handleSearchTerm}
+              value={this.state.searchTerm}
+              placeholder="type title to search..."
+              type="text"
+            />
+          </div>
+        </div>
+
+        <div className="content">
+          <div className="movie-list">{this.getMovies()}</div>
+        </div>
       </div>
     );
   }

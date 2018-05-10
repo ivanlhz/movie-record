@@ -1,0 +1,14 @@
+.card {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 0.5;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  opacity: 1;
+}

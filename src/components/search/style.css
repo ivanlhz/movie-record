@@ -1,0 +1,72 @@
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 65px 1fr;
+}
+
+.layout .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.layout .title {
+  color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 12px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.layout .title .h2 {
+  display: block;
+  max-width: 400px;
+  line-height: 45px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+span {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: normal;
+}
+
+.layout .search {
+  min-width: 300px;
+  background-color: limegreen;
+}
+.layout .content {
+  background-color: #111;
+}
+.layout input[type='text'] {
+  display: block;
+  background-color: #f2f3f5;
+  border: 1px solid transparent;
+  width: calc(100% - 32px);
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 2px 0 0 2px;
+  font-size: 13px;
+}
+.content {
+  padding: 12px;
+}
+.content .movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+}
