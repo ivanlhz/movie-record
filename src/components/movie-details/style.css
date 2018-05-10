@@ -1,0 +1,49 @@
+.movie-details {
+  max-width: 600px;
+  background-color: #fff;
+  color: black;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: 50% 1fr max-content;
+  grid-template-rows: min-content 1fr min-content min-content;
+
+  grid-template-areas:
+    'poster .  date'
+    'poster description description'
+    'poster genre       director';
+}
+
+.director,
+.date,
+.genre,
+.description {
+  padding: 10px;
+}
+.poster {
+  grid-area: poster;
+}
+
+.director {
+  grid-area: director;
+}
+
+.description {
+  grid-area: description;
+}
+
+.date {
+  grid-area: date;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.genre {
+  grid-area: genre;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

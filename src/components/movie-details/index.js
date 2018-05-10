@@ -11,21 +11,17 @@ class MovieDetails extends Component {
 
   render() {
     return (
-      <div class="details">
-        <h1>{this.state.title}</h1>
-        <img class="img-poster" src={this.state.poster} alt={this.state.title} />
-        <ul>
-          <li>
-            <b>Year:</b> {this.state.year}
-          </li>
-          <li>
-            <b>Genre:</b> {this.state.genre}
-          </li>
-          <li>
-            <b>Director:</b> {this.state.director}
-          </li>
-        </ul>
-        <p>{this.state.plot}</p>
+      <div className="movie-details">
+        <div className="poster">
+          <img className="img-poster" src={this.state.poster} alt={this.state.title} />
+        </div>
+        <div className="director">{this.state.director} </div>
+        <div className="date">{this.state.year}</div>
+        <div className="description">
+          <h2>{this.state.title}</h2>
+          <p>{this.state.plot}</p>
+        </div>
+        <div className="genre">{this.state.genre}</div>
       </div>
     );
   }
