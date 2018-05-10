@@ -13,7 +13,7 @@ class MovieDetails extends Component {
     return (
       <div class="details">
         <h1>{this.state.title}</h1>
-        <img src={this.state.poster} alt={this.state.title} />
+        <img class="img-poster" src={this.state.poster} alt={this.state.title} />
         <ul>
           <li>
             <b>Year:</b> {this.state.year}
