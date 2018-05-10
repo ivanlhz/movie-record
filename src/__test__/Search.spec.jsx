@@ -1,7 +1,7 @@
 import React from 'react';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import preload from '../../data/movies.json';
+import preload from '../data/movies.json';
 
 import { Search, MovieCard } from '../components';
 

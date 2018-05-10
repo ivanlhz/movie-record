@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import movies from '../../../data/movies.json';
+import movies from '../../data/movies.json';
 
 class MovieDetails extends Component {
   constructor(props) {

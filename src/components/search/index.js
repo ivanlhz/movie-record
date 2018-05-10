@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 import MovieCard from '../movie-card';
-import movies from '../../../data/movies.json';
+import movies from '../../data/movies.json';
 
 class Search extends Component {
   state = {
@@ -12,15 +12,12 @@ class Search extends Component {
     this.setState({ searchTerm: event.target.value });
   };
 
-  parseJsonFile(jsonFile) {
-    return JSON.parse(JSON.stringify(jsonFile));
-  }
+  parseJsonFile = jsonFile => JSON.parse(JSON.stringify(jsonFile));
 
-  getMovies() {
-    return this.parseJsonFile(movies)
+  getMovies = () =>
+    this.parseJsonFile(movies)
       .filter(movie => movie.title.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0)
       .map(movie => <MovieCard key={movie.id} {...movie} />);
-  }
 
   render() {
     return (
