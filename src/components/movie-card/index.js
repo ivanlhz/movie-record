@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import 'normalize.css';
 import './style.css';
 
 const MovieCard = props => (

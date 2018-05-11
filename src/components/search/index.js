@@ -5,7 +5,8 @@ import movies from '../../data/movies.json';
 
 class Search extends Component {
   state = {
-    searchTerm: ''
+    searchTerm: '',
+    filterField: 'title'
   };
 
   handleSearchTerm = event => {
@@ -15,10 +16,17 @@ class Search extends Component {
   parseJsonFile = jsonFile => JSON.parse(JSON.stringify(jsonFile));
 
   getMovies = () => {
+    const searchText = this.state.searchTerm.toUpperCase();
+    const filter = this.state.filterField;
     const response = this.parseJsonFile(movies)
-      .filter(movie => movie.title.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0)
+      .filter(movie => movie[filter].toUpperCase().indexOf(searchText) >= 0)
       .map(movie => <MovieCard key={movie.id} {...movie} />);
     return response.length > 0 ? response : <h2> Not Found </h2>;
+  };
+
+  handleFilter = event => {
+    this.setState({ filterField: event.target.value });
+    this.getMovies();
   };
 
   render() {
@@ -27,16 +35,25 @@ class Search extends Component {
         <div className="nav">
           <div className="title">
             <h2>
-              Search: <span>{this.state.searchTerm}</span>
+              MovieRecord: <span>{this.state.searchTerm}</span>
             </h2>
           </div>
           <div className="search">
             <input
               onChange={this.handleSearchTerm}
               value={this.state.searchTerm}
-              placeholder="type title to search..."
+              placeholder={`Type ${this.state.filterField.toLowerCase()} to search ...`}
               type="text"
             />
+          </div>
+          <div className="filter">
+            <select onChange={this.handleFilter} name="filter" id="movie-filter">
+              <option selected value="title">
+                Title
+              </option>
+              <option value="year">Year</option>
+              <option value="genre">Genre</option>
+            </select>
           </div>
         </div>
 
