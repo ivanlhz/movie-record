@@ -19,8 +19,9 @@ class Search extends Component {
     const searchText = this.state.searchTerm.toUpperCase();
     const filter = this.state.filterField;
     const response = this.parseJsonFile(movies)
-      .filter(movie => movie[filter].toUpperCase().indexOf(searchText) >= 0)
+      .filter(movie => this.findElementByFilter(movie, searchText, filter))
       .map(movie => <MovieCard key={movie.id} {...movie} />);
+
     return response.length > 0 ? response : <h2> Not Found </h2>;
   };
 
@@ -28,6 +29,8 @@ class Search extends Component {
     this.setState({ filterField: event.target.value });
     this.getMovies();
   };
+
+  findElementByFilter = (element, text, filter) => element[filter].toUpperCase().indexOf(text) >= 0;
 
   render() {
     return (
