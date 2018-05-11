@@ -26,42 +26,43 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          Guardians of the Galaxy Vol. 2
-</h1>,
-        <img
-          alt="Guardians of the Galaxy Vol. 2"
-          class="img-poster"
-          src="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
-/>,
-        <ul>
-          <li>
-                    <b>
-                              Year:
-                    </b>
-                     
-                    2017
-          </li>
-          <li>
-                    <b>
-                              Genre:
-                    </b>
-                     
-                    Action, Adventure, Sci-Fi
-          </li>
-          <li>
-                    <b>
-                              Director:
-                    </b>
-                     
-                    James Gunn
-          </li>
-</ul>,
-        <p>
-          The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
-</p>,
+        <div
+          className="poster"
+>
+          <img
+                    alt="Guardians of the Galaxy Vol. 2"
+                    className="img-poster"
+                    src="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+          />
+</div>,
+        <div
+          className="director"
+>
+          James Gunn
+           
+</div>,
+        <div
+          className="date"
+>
+          2017
+</div>,
+        <div
+          className="description"
+>
+          <h2>
+                    Guardians of the Galaxy Vol. 2
+          </h2>
+          <p>
+                    The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
+          </p>
+</div>,
+        <div
+          className="genre"
+>
+          Action, Adventure, Sci-Fi
+</div>,
       ],
-      "class": "details",
+      "className": "movie-details",
     },
     "ref": null,
     "rendered": Array [
@@ -70,24 +71,28 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Guardians of the Galaxy Vol. 2",
+          "children": <img
+            alt="Guardians of the Galaxy Vol. 2"
+            className="img-poster"
+            src="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+/>,
+          "className": "poster",
         },
         "ref": null,
-        "rendered": "Guardians of the Galaxy Vol. 2",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "Guardians of the Galaxy Vol. 2",
-          "class": "img-poster",
-          "src": "https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Guardians of the Galaxy Vol. 2",
+            "className": "img-poster",
+            "src": "https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
         },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -95,28 +100,44 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <li>
-              <b>
-                            Year:
-              </b>
-               
-              2017
-</li>,
-            <li>
-              <b>
-                            Genre:
-              </b>
-               
-              Action, Adventure, Sci-Fi
-</li>,
-            <li>
-              <b>
-                            Director:
-              </b>
-               
-              James Gunn
-</li>,
+            "James Gunn",
+            " ",
           ],
+          "className": "director",
+        },
+        "ref": null,
+        "rendered": Array [
+          "James Gunn",
+          " ",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "2017",
+          "className": "date",
+        },
+        "ref": null,
+        "rendered": "2017",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Guardians of the Galaxy Vol. 2
+</h2>,
+            <p>
+              The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
+</p>,
+          ],
+          "className": "description",
         },
         "ref": null,
         "rendered": Array [
@@ -125,107 +146,37 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <b>
-                  Year:
-</b>,
-                " ",
-                "2017",
-              ],
+              "children": "Guardians of the Galaxy Vol. 2",
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Year:",
-                },
-                "ref": null,
-                "rendered": "Year:",
-                "type": "b",
-              },
-              " ",
-              "2017",
-            ],
-            "type": "li",
+            "rendered": "Guardians of the Galaxy Vol. 2",
+            "type": "h2",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <b>
-                  Genre:
-</b>,
-                " ",
-                "Action, Adventure, Sci-Fi",
-              ],
+              "children": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Genre:",
-                },
-                "ref": null,
-                "rendered": "Genre:",
-                "type": "b",
-              },
-              " ",
-              "Action, Adventure, Sci-Fi",
-            ],
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <b>
-                  Director:
-</b>,
-                " ",
-                "James Gunn",
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Director:",
-                },
-                "ref": null,
-                "rendered": "Director:",
-                "type": "b",
-              },
-              " ",
-              "James Gunn",
-            ],
-            "type": "li",
+            "rendered": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+            "type": "p",
           },
         ],
-        "type": "ul",
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+          "children": "Action, Adventure, Sci-Fi",
+          "className": "genre",
         },
         "ref": null,
-        "rendered": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
-        "type": "p",
+        "rendered": "Action, Adventure, Sci-Fi",
+        "type": "div",
       },
     ],
     "type": "div",
@@ -237,42 +188,43 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            Guardians of the Galaxy Vol. 2
-</h1>,
-          <img
-            alt="Guardians of the Galaxy Vol. 2"
-            class="img-poster"
-            src="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
-/>,
-          <ul>
-            <li>
-                        <b>
-                                    Year:
-                        </b>
-                         
-                        2017
-            </li>
-            <li>
-                        <b>
-                                    Genre:
-                        </b>
-                         
-                        Action, Adventure, Sci-Fi
-            </li>
-            <li>
-                        <b>
-                                    Director:
-                        </b>
-                         
-                        James Gunn
-            </li>
-</ul>,
-          <p>
-            The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
-</p>,
+          <div
+            className="poster"
+>
+            <img
+                        alt="Guardians of the Galaxy Vol. 2"
+                        className="img-poster"
+                        src="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+            />
+</div>,
+          <div
+            className="director"
+>
+            James Gunn
+             
+</div>,
+          <div
+            className="date"
+>
+            2017
+</div>,
+          <div
+            className="description"
+>
+            <h2>
+                        Guardians of the Galaxy Vol. 2
+            </h2>
+            <p>
+                        The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
+            </p>
+</div>,
+          <div
+            className="genre"
+>
+            Action, Adventure, Sci-Fi
+</div>,
         ],
-        "class": "details",
+        "className": "movie-details",
       },
       "ref": null,
       "rendered": Array [
@@ -281,24 +233,28 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Guardians of the Galaxy Vol. 2",
+            "children": <img
+              alt="Guardians of the Galaxy Vol. 2"
+              className="img-poster"
+              src="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+/>,
+            "className": "poster",
           },
           "ref": null,
-          "rendered": "Guardians of the Galaxy Vol. 2",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "Guardians of the Galaxy Vol. 2",
-            "class": "img-poster",
-            "src": "https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Guardians of the Galaxy Vol. 2",
+              "className": "img-poster",
+              "src": "https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
           },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -306,28 +262,44 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <li>
-                <b>
-                                Year:
-                </b>
-                 
-                2017
-</li>,
-              <li>
-                <b>
-                                Genre:
-                </b>
-                 
-                Action, Adventure, Sci-Fi
-</li>,
-              <li>
-                <b>
-                                Director:
-                </b>
-                 
-                James Gunn
-</li>,
+              "James Gunn",
+              " ",
             ],
+            "className": "director",
+          },
+          "ref": null,
+          "rendered": Array [
+            "James Gunn",
+            " ",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "2017",
+            "className": "date",
+          },
+          "ref": null,
+          "rendered": "2017",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Guardians of the Galaxy Vol. 2
+</h2>,
+              <p>
+                The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.
+</p>,
+            ],
+            "className": "description",
           },
           "ref": null,
           "rendered": Array [
@@ -336,107 +308,37 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <b>
-                    Year:
-</b>,
-                  " ",
-                  "2017",
-                ],
+                "children": "Guardians of the Galaxy Vol. 2",
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Year:",
-                  },
-                  "ref": null,
-                  "rendered": "Year:",
-                  "type": "b",
-                },
-                " ",
-                "2017",
-              ],
-              "type": "li",
+              "rendered": "Guardians of the Galaxy Vol. 2",
+              "type": "h2",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <b>
-                    Genre:
-</b>,
-                  " ",
-                  "Action, Adventure, Sci-Fi",
-                ],
+                "children": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Genre:",
-                  },
-                  "ref": null,
-                  "rendered": "Genre:",
-                  "type": "b",
-                },
-                " ",
-                "Action, Adventure, Sci-Fi",
-              ],
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <b>
-                    Director:
-</b>,
-                  " ",
-                  "James Gunn",
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Director:",
-                  },
-                  "ref": null,
-                  "rendered": "Director:",
-                  "type": "b",
-                },
-                " ",
-                "James Gunn",
-              ],
-              "type": "li",
+              "rendered": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+              "type": "p",
             },
           ],
-          "type": "ul",
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+            "children": "Action, Adventure, Sci-Fi",
+            "className": "genre",
           },
           "ref": null,
-          "rendered": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
-          "type": "p",
+          "rendered": "Action, Adventure, Sci-Fi",
+          "type": "div",
         },
       ],
       "type": "div",

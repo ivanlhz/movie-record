@@ -18,309 +18,350 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <header>
-          <h1>
-                    Search
-          </h1>
-          <input
-                    onChange={[Function]}
-                    placeholder="type title to search..."
-                    type="text"
-                    value=""
-          />
-</header>,
         <div
-          className="movie-list"
+          className="nav"
 >
-          <MovieCard
-                    DVD="22 Aug 2017"
-                    actors="Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel"
-                    awards="Nominated for 1 Oscar. Another 12 wins & 42 nominations."
-                    boxoffice="$389,804,217"
-                    country="USA"
-                    director="James Gunn"
-                    genre="Action, Adventure, Sci-Fi"
-                    id={1}
-                    imdbID="tt3896198"
-                    imdbRating="7.7"
-                    imdbVotes="362,736"
-                    language="English"
-                    metascore="67"
-                    plot="The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
-                    poster="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
-                    production="Walt Disney Pictures"
-                    rated="PG-13"
-                    ratings={
-                              Array [
-                                        Object {
-                                          "source": "Internet Movie Database",
-                                          "value": "7.7/10",
-                                        },
-                                        Object {
-                                          "source": "Rotten Tomatoes",
-                                          "value": "83%",
-                                        },
-                                        Object {
-                                          "source": "Metacritic",
-                                          "value": "67/100",
-                                        },
-                                      ]
-                    }
-                    released="05 May 2017"
-                    response="True"
-                    runtime="136 min"
-                    title="Guardians of the Galaxy Vol. 2"
-                    type="movie"
-                    website="https://marvel.com/guardians"
-                    writer="James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)"
-                    year="2017"
-          />
-          <MovieCard
-                    DVD="N/A"
-                    a="Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
-                    awards="N/A"
-                    boxoffice="N/A"
-                    country="USA"
-                    director="Anthony Russo, Joe Russo"
-                    genre="Action, Adventure, Fantasy"
-                    id={2}
-                    imdbID="tt4154756"
-                    imdbRating="9.0"
-                    imdbVotes="219,195"
-                    language="English"
-                    metascore="68"
-                    plot="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
-                    poster="https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
-                    production="Walt Disney Pictures"
-                    rated="PG-13"
-                    ratings={
-                              Array [
-                                        Object {
-                                          "source": "Internet Movie Database",
-                                          "value": "9.0/10",
-                                        },
-                                        Object {
-                                          "source": "Rotten Tomatoes",
-                                          "value": "84%",
-                                        },
-                                        Object {
-                                          "source": "Metacritic",
-                                          "value": "68/100",
-                                        },
-                                      ]
-                    }
-                    released="27 Apr 2018"
-                    response="True"
-                    runtime="149 min"
-                    title="Avengers: Infinity War"
-                    type="movie"
-                    website="http://marvel.com/movies/movie/223/avengers_infinity_war"
-                    writer="Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)"
-                    year="2018"
-          />
-          <MovieCard
-                    DVD="N/A"
-                    a="Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson"
-                    awards="N/A"
-                    boxoffice="N/A"
-                    country="USA"
-                    director="Anna Boden, Ryan Fleck"
-                    genre="Action, Adventure, Sci-Fi"
-                    id={3}
-                    imdbID="tt4154664"
-                    imdbRating="N/A"
-                    imdbVotes="N/A"
-                    language="English"
-                    metascore="N/A"
-                    plot="Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
-                    poster="https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg"
-                    production="Walt Disney Pictures"
-                    rated="N/A"
-                    ratings={Array []}
-                    released="08 Mar 2019"
-                    response="True"
-                    runtime="N/A"
-                    title="Captain Marvel"
-                    type="movie"
-                    website="https://www.facebook.com/CaptainMarvelOfficial/"
-                    writer="Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)"
-                    year="2019"
-          />
-          <MovieCard
-                    DVD="N/A"
-                    a="Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira"
-                    awards="14 nominations."
-                    boxoffice="$501,105,037"
-                    country="USA"
-                    director="Ryan Coogler"
-                    genre="Action, Adventure, Sci-Fi"
-                    id={4}
-                    imdbID="tt1825683"
-                    imdbRating="7.7"
-                    imdbVotes="247,680"
-                    language="Swahili, Nama, English, Xhosa, Korean"
-                    metascore="88"
-                    plot="T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake."
-                    poster="https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg"
-                    production="Marvel Studios"
-                    rated="PG-13"
-                    ratings={
-                              Array [
-                                        Object {
-                                          "source": "Internet Movie Database",
-                                          "value": "7.7/10",
-                                        },
-                                        Object {
-                                          "source": "Rotten Tomatoes",
-                                          "value": "96%",
-                                        },
-                                        Object {
-                                          "source": "Metacritic",
-                                          "value": "88/100",
-                                        },
-                                      ]
-                    }
-                    released="16 Feb 2018"
-                    response="True"
-                    runtime="134 min"
-                    title="Black Panther"
-                    type="movie"
-                    website="https://www.facebook.com/BlackPantherMovie/"
-                    writer="Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)"
-                    year="2018"
-          />
-          <MovieCard
-                    DVD="N/A"
-                    a="Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe"
-                    awards="N/A"
-                    boxoffice="N/A"
-                    country="USA"
-                    director="John Krasinski"
-                    genre="Drama, Horror, Sci-Fi"
-                    id={5}
-                    imdbID="tt6644200"
-                    imdbRating="8.1"
-                    imdbVotes="56,246"
-                    language="English, American Sign language"
-                    metascore="82"
-                    plot="A family is forced to live in silence while hiding from creatures that hunt by sound."
-                    poster="https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg"
-                    production="Paramount Pictures"
-                    rated="PG-13"
-                    ratings={
-                              Array [
-                                        Object {
-                                          "source": "Internet Movie Database",
-                                          "value": "8.1/10",
-                                        },
-                                        Object {
-                                          "source": "Rotten Tomatoes",
-                                          "value": "95%",
-                                        },
-                                        Object {
-                                          "source": "Metacritic",
-                                          "value": "82/100",
-                                        },
-                                      ]
-                    }
-                    released="06 Apr 2018"
-                    response="True"
-                    runtime="90 min"
-                    title="A Quiet Place"
-                    type="movie"
-                    website="https://www.facebook.com/AQuietPlaceMovie"
-                    writer="Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)"
-                    year="2018"
-          />
-          <MovieCard
-                    DVD="10 Apr 2018"
-                    a="Hugh Jackman, Michelle Williams, Zac Efron, Zendaya"
-                    awards="Nominated for 1 Oscar. Another 7 wins & 19 nominations."
-                    boxoffice="$164,616,443"
-                    country="USA"
-                    director="Michael Gracey"
-                    genre="Biography, Drama, Musical"
-                    id={6}
-                    imdbID="tt1485796"
-                    imdbRating="7.8"
-                    imdbVotes="106,608"
-                    language="English"
-                    metascore="48"
-                    plot="Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation."
-                    poster="https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg"
-                    production="20th Century Fox"
-                    rated="PG"
-                    ratings={
-                              Array [
-                                        Object {
-                                          "source": "Internet Movie Database",
-                                          "value": "7.8/10",
-                                        },
-                                        Object {
-                                          "source": "Rotten Tomatoes",
-                                          "value": "55%",
-                                        },
-                                        Object {
-                                          "source": "Metacritic",
-                                          "value": "48/100",
-                                        },
-                                      ]
-                    }
-                    released="20 Dec 2017"
-                    response="True"
-                    runtime="105 min"
-                    title="The Greatest Showman"
-                    type="movie"
-                    website="http://www.foxmovies.com/movies/the-greatest-showman"
-                    writer="Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)"
-                    year="2017"
-          />
-          <MovieCard
-                    DVD="N/A"
-                    a="Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe"
-                    awards="N/A"
-                    boxoffice="N/A"
-                    country="USA"
-                    director="Steven Spielberg"
-                    genre="Action, Adventure, Sci-Fi"
-                    id={7}
-                    imdbID="tt1677720"
-                    imdbRating="7.8"
-                    imdbVotes="107,934"
-                    language="English"
-                    metascore="64"
-                    plot="When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune."
-                    poster="https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
-                    production="Warner Bros. Pictures"
-                    rated="PG-13"
-                    ratings={
-                              Array [
-                                        Object {
-                                          "source": "Internet Movie Database",
-                                          "value": "7.8/10",
-                                        },
-                                        Object {
-                                          "source": "Rotten Tomatoes",
-                                          "value": "74%",
-                                        },
-                                        Object {
-                                          "source": "Metacritic",
-                                          "value": "64/100",
-                                        },
-                                      ]
-                    }
-                    released="29 Mar 2018"
-                    response="True"
-                    runtime="140 min"
-                    title="Ready Player One"
-                    type="movie"
-                    website="http://readyplayeronemovie.com/"
-                    writer="Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)"
-                    year="2018"
-          />
+          <div
+                    className="title"
+          >
+                    <h2>
+                              MovieRecord: 
+                              <span />
+                    </h2>
+          </div>
+          <div
+                    className="search"
+          >
+                    <input
+                              onChange={[Function]}
+                              placeholder="Type title to search ..."
+                              type="text"
+                              value=""
+                    />
+          </div>
+          <div
+                    className="filter"
+          >
+                    <select
+                              id="movie-filter"
+                              name="filter"
+                              onChange={[Function]}
+                    >
+                              <option
+                                        selected={true}
+                                        value="title"
+                              >
+                                        Title
+                              </option>
+                              <option
+                                        value="year"
+                              >
+                                        Year
+                              </option>
+                              <option
+                                        value="genre"
+                              >
+                                        Genre
+                              </option>
+                    </select>
+          </div>
+</div>,
+        <div
+          className="content"
+>
+          <div
+                    className="movie-list"
+          >
+                    <MovieCard
+                              DVD="22 Aug 2017"
+                              actors="Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel"
+                              awards="Nominated for 1 Oscar. Another 12 wins & 42 nominations."
+                              boxoffice="$389,804,217"
+                              country="USA"
+                              director="James Gunn"
+                              genre="Action, Adventure, Sci-Fi"
+                              id={1}
+                              imdbID="tt3896198"
+                              imdbRating="7.7"
+                              imdbVotes="362,736"
+                              language="English"
+                              metascore="67"
+                              plot="The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+                              poster="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+                              production="Walt Disney Pictures"
+                              rated="PG-13"
+                              ratings={
+                                        Array [
+                                                  Object {
+                                                    "source": "Internet Movie Database",
+                                                    "value": "7.7/10",
+                                                  },
+                                                  Object {
+                                                    "source": "Rotten Tomatoes",
+                                                    "value": "83%",
+                                                  },
+                                                  Object {
+                                                    "source": "Metacritic",
+                                                    "value": "67/100",
+                                                  },
+                                                ]
+                              }
+                              released="05 May 2017"
+                              response="True"
+                              runtime="136 min"
+                              title="Guardians of the Galaxy Vol. 2"
+                              type="movie"
+                              website="https://marvel.com/guardians"
+                              writer="James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)"
+                              year="2017"
+                    />
+                    <MovieCard
+                              DVD="N/A"
+                              a="Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
+                              awards="N/A"
+                              boxoffice="N/A"
+                              country="USA"
+                              director="Anthony Russo, Joe Russo"
+                              genre="Action, Adventure, Fantasy"
+                              id={2}
+                              imdbID="tt4154756"
+                              imdbRating="9.0"
+                              imdbVotes="219,195"
+                              language="English"
+                              metascore="68"
+                              plot="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+                              poster="https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+                              production="Walt Disney Pictures"
+                              rated="PG-13"
+                              ratings={
+                                        Array [
+                                                  Object {
+                                                    "source": "Internet Movie Database",
+                                                    "value": "9.0/10",
+                                                  },
+                                                  Object {
+                                                    "source": "Rotten Tomatoes",
+                                                    "value": "84%",
+                                                  },
+                                                  Object {
+                                                    "source": "Metacritic",
+                                                    "value": "68/100",
+                                                  },
+                                                ]
+                              }
+                              released="27 Apr 2018"
+                              response="True"
+                              runtime="149 min"
+                              title="Avengers: Infinity War"
+                              type="movie"
+                              website="http://marvel.com/movies/movie/223/avengers_infinity_war"
+                              writer="Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)"
+                              year="2018"
+                    />
+                    <MovieCard
+                              DVD="N/A"
+                              a="Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson"
+                              awards="N/A"
+                              boxoffice="N/A"
+                              country="USA"
+                              director="Anna Boden, Ryan Fleck"
+                              genre="Action, Adventure, Sci-Fi"
+                              id={3}
+                              imdbID="tt4154664"
+                              imdbRating="N/A"
+                              imdbVotes="N/A"
+                              language="English"
+                              metascore="N/A"
+                              plot="Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+                              poster="https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg"
+                              production="Walt Disney Pictures"
+                              rated="N/A"
+                              ratings={Array []}
+                              released="08 Mar 2019"
+                              response="True"
+                              runtime="N/A"
+                              title="Captain Marvel"
+                              type="movie"
+                              website="https://www.facebook.com/CaptainMarvelOfficial/"
+                              writer="Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)"
+                              year="2019"
+                    />
+                    <MovieCard
+                              DVD="N/A"
+                              a="Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira"
+                              awards="14 nominations."
+                              boxoffice="$501,105,037"
+                              country="USA"
+                              director="Ryan Coogler"
+                              genre="Action, Adventure, Sci-Fi"
+                              id={4}
+                              imdbID="tt1825683"
+                              imdbRating="7.7"
+                              imdbVotes="247,680"
+                              language="Swahili, Nama, English, Xhosa, Korean"
+                              metascore="88"
+                              plot="T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake."
+                              poster="https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg"
+                              production="Marvel Studios"
+                              rated="PG-13"
+                              ratings={
+                                        Array [
+                                                  Object {
+                                                    "source": "Internet Movie Database",
+                                                    "value": "7.7/10",
+                                                  },
+                                                  Object {
+                                                    "source": "Rotten Tomatoes",
+                                                    "value": "96%",
+                                                  },
+                                                  Object {
+                                                    "source": "Metacritic",
+                                                    "value": "88/100",
+                                                  },
+                                                ]
+                              }
+                              released="16 Feb 2018"
+                              response="True"
+                              runtime="134 min"
+                              title="Black Panther"
+                              type="movie"
+                              website="https://www.facebook.com/BlackPantherMovie/"
+                              writer="Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)"
+                              year="2018"
+                    />
+                    <MovieCard
+                              DVD="N/A"
+                              a="Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe"
+                              awards="N/A"
+                              boxoffice="N/A"
+                              country="USA"
+                              director="John Krasinski"
+                              genre="Drama, Horror, Sci-Fi"
+                              id={5}
+                              imdbID="tt6644200"
+                              imdbRating="8.1"
+                              imdbVotes="56,246"
+                              language="English, American Sign language"
+                              metascore="82"
+                              plot="A family is forced to live in silence while hiding from creatures that hunt by sound."
+                              poster="https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg"
+                              production="Paramount Pictures"
+                              rated="PG-13"
+                              ratings={
+                                        Array [
+                                                  Object {
+                                                    "source": "Internet Movie Database",
+                                                    "value": "8.1/10",
+                                                  },
+                                                  Object {
+                                                    "source": "Rotten Tomatoes",
+                                                    "value": "95%",
+                                                  },
+                                                  Object {
+                                                    "source": "Metacritic",
+                                                    "value": "82/100",
+                                                  },
+                                                ]
+                              }
+                              released="06 Apr 2018"
+                              response="True"
+                              runtime="90 min"
+                              title="A Quiet Place"
+                              type="movie"
+                              website="https://www.facebook.com/AQuietPlaceMovie"
+                              writer="Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)"
+                              year="2018"
+                    />
+                    <MovieCard
+                              DVD="10 Apr 2018"
+                              a="Hugh Jackman, Michelle Williams, Zac Efron, Zendaya"
+                              awards="Nominated for 1 Oscar. Another 7 wins & 19 nominations."
+                              boxoffice="$164,616,443"
+                              country="USA"
+                              director="Michael Gracey"
+                              genre="Biography, Drama, Musical"
+                              id={6}
+                              imdbID="tt1485796"
+                              imdbRating="7.8"
+                              imdbVotes="106,608"
+                              language="English"
+                              metascore="48"
+                              plot="Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation."
+                              poster="https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg"
+                              production="20th Century Fox"
+                              rated="PG"
+                              ratings={
+                                        Array [
+                                                  Object {
+                                                    "source": "Internet Movie Database",
+                                                    "value": "7.8/10",
+                                                  },
+                                                  Object {
+                                                    "source": "Rotten Tomatoes",
+                                                    "value": "55%",
+                                                  },
+                                                  Object {
+                                                    "source": "Metacritic",
+                                                    "value": "48/100",
+                                                  },
+                                                ]
+                              }
+                              released="20 Dec 2017"
+                              response="True"
+                              runtime="105 min"
+                              title="The Greatest Showman"
+                              type="movie"
+                              website="http://www.foxmovies.com/movies/the-greatest-showman"
+                              writer="Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)"
+                              year="2017"
+                    />
+                    <MovieCard
+                              DVD="N/A"
+                              a="Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe"
+                              awards="N/A"
+                              boxoffice="N/A"
+                              country="USA"
+                              director="Steven Spielberg"
+                              genre="Action, Adventure, Sci-Fi"
+                              id={7}
+                              imdbID="tt1677720"
+                              imdbRating="7.8"
+                              imdbVotes="107,934"
+                              language="English"
+                              metascore="64"
+                              plot="When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune."
+                              poster="https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+                              production="Warner Bros. Pictures"
+                              rated="PG-13"
+                              ratings={
+                                        Array [
+                                                  Object {
+                                                    "source": "Internet Movie Database",
+                                                    "value": "7.8/10",
+                                                  },
+                                                  Object {
+                                                    "source": "Rotten Tomatoes",
+                                                    "value": "74%",
+                                                  },
+                                                  Object {
+                                                    "source": "Metacritic",
+                                                    "value": "64/100",
+                                                  },
+                                                ]
+                              }
+                              released="29 Mar 2018"
+                              response="True"
+                              runtime="140 min"
+                              title="Ready Player One"
+                              type="movie"
+                              website="http://readyplayeronemovie.com/"
+                              writer="Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)"
+                              year="2018"
+                    />
+          </div>
 </div>,
       ],
-      "className": "search",
+      "className": "layout",
     },
     "ref": null,
     "rendered": Array [
@@ -330,16 +371,52 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h1>
-              Search
-</h1>,
-            <input
-              onChange={[Function]}
-              placeholder="type title to search..."
-              type="text"
-              value=""
-/>,
+            <div
+              className="title"
+>
+              <h2>
+                            MovieRecord: 
+                            <span />
+              </h2>
+</div>,
+            <div
+              className="search"
+>
+              <input
+                            onChange={[Function]}
+                            placeholder="Type title to search ..."
+                            type="text"
+                            value=""
+              />
+</div>,
+            <div
+              className="filter"
+>
+              <select
+                            id="movie-filter"
+                            name="filter"
+                            onChange={[Function]}
+              >
+                            <option
+                                          selected={true}
+                                          value="title"
+                            >
+                                          Title
+                            </option>
+                            <option
+                                          value="year"
+                            >
+                                          Year
+                            </option>
+                            <option
+                                          value="genre"
+                            >
+                                          Genre
+                            </option>
+              </select>
+</div>,
           ],
+          "className": "nav",
         },
         "ref": null,
         "rendered": Array [
@@ -348,681 +425,182 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Search",
+              "children": <h2>
+                MovieRecord: 
+                <span />
+</h2>,
+              "className": "title",
             },
             "ref": null,
-            "rendered": "Search",
-            "type": "h1",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "MovieRecord: ",
+                  <span />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "MovieRecord: ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "span",
+                },
+              ],
+              "type": "h2",
+            },
+            "type": "div",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "onChange": [Function],
-              "placeholder": "type title to search...",
-              "type": "text",
-              "value": "",
+              "children": <input
+                onChange={[Function]}
+                placeholder="Type title to search ..."
+                type="text"
+                value=""
+/>,
+              "className": "search",
             },
             "ref": null,
-            "rendered": null,
-            "type": "input",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Type title to search ...",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <select
+                id="movie-filter"
+                name="filter"
+                onChange={[Function]}
+>
+                <option
+                                selected={true}
+                                value="title"
+                >
+                                Title
+                </option>
+                <option
+                                value="year"
+                >
+                                Year
+                </option>
+                <option
+                                value="genre"
+                >
+                                Genre
+                </option>
+</select>,
+              "className": "filter",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    selected={true}
+                    value="title"
+>
+                    Title
+</option>,
+                  <option
+                    value="year"
+>
+                    Year
+</option>,
+                  <option
+                    value="genre"
+>
+                    Genre
+</option>,
+                ],
+                "id": "movie-filter",
+                "name": "filter",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Title",
+                    "selected": true,
+                    "value": "title",
+                  },
+                  "ref": null,
+                  "rendered": "Title",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Year",
+                    "value": "year",
+                  },
+                  "ref": null,
+                  "rendered": "Year",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Genre",
+                    "value": "genre",
+                  },
+                  "ref": null,
+                  "rendered": "Genre",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            "type": "div",
           },
         ],
-        "type": "header",
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <MovieCard
-              DVD="22 Aug 2017"
-              actors="Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel"
-              awards="Nominated for 1 Oscar. Another 12 wins & 42 nominations."
-              boxoffice="$389,804,217"
-              country="USA"
-              director="James Gunn"
-              genre="Action, Adventure, Sci-Fi"
-              id={1}
-              imdbID="tt3896198"
-              imdbRating="7.7"
-              imdbVotes="362,736"
-              language="English"
-              metascore="67"
-              plot="The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
-              poster="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
-              production="Walt Disney Pictures"
-              rated="PG-13"
-              ratings={
-                            Array [
-                                          Object {
-                                            "source": "Internet Movie Database",
-                                            "value": "7.7/10",
-                                          },
-                                          Object {
-                                            "source": "Rotten Tomatoes",
-                                            "value": "83%",
-                                          },
-                                          Object {
-                                            "source": "Metacritic",
-                                            "value": "67/100",
-                                          },
-                                        ]
-              }
-              released="05 May 2017"
-              response="True"
-              runtime="136 min"
-              title="Guardians of the Galaxy Vol. 2"
-              type="movie"
-              website="https://marvel.com/guardians"
-              writer="James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)"
-              year="2017"
-/>,
-            <MovieCard
-              DVD="N/A"
-              a="Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
-              awards="N/A"
-              boxoffice="N/A"
-              country="USA"
-              director="Anthony Russo, Joe Russo"
-              genre="Action, Adventure, Fantasy"
-              id={2}
-              imdbID="tt4154756"
-              imdbRating="9.0"
-              imdbVotes="219,195"
-              language="English"
-              metascore="68"
-              plot="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
-              poster="https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
-              production="Walt Disney Pictures"
-              rated="PG-13"
-              ratings={
-                            Array [
-                                          Object {
-                                            "source": "Internet Movie Database",
-                                            "value": "9.0/10",
-                                          },
-                                          Object {
-                                            "source": "Rotten Tomatoes",
-                                            "value": "84%",
-                                          },
-                                          Object {
-                                            "source": "Metacritic",
-                                            "value": "68/100",
-                                          },
-                                        ]
-              }
-              released="27 Apr 2018"
-              response="True"
-              runtime="149 min"
-              title="Avengers: Infinity War"
-              type="movie"
-              website="http://marvel.com/movies/movie/223/avengers_infinity_war"
-              writer="Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)"
-              year="2018"
-/>,
-            <MovieCard
-              DVD="N/A"
-              a="Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson"
-              awards="N/A"
-              boxoffice="N/A"
-              country="USA"
-              director="Anna Boden, Ryan Fleck"
-              genre="Action, Adventure, Sci-Fi"
-              id={3}
-              imdbID="tt4154664"
-              imdbRating="N/A"
-              imdbVotes="N/A"
-              language="English"
-              metascore="N/A"
-              plot="Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
-              poster="https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg"
-              production="Walt Disney Pictures"
-              rated="N/A"
-              ratings={Array []}
-              released="08 Mar 2019"
-              response="True"
-              runtime="N/A"
-              title="Captain Marvel"
-              type="movie"
-              website="https://www.facebook.com/CaptainMarvelOfficial/"
-              writer="Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)"
-              year="2019"
-/>,
-            <MovieCard
-              DVD="N/A"
-              a="Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira"
-              awards="14 nominations."
-              boxoffice="$501,105,037"
-              country="USA"
-              director="Ryan Coogler"
-              genre="Action, Adventure, Sci-Fi"
-              id={4}
-              imdbID="tt1825683"
-              imdbRating="7.7"
-              imdbVotes="247,680"
-              language="Swahili, Nama, English, Xhosa, Korean"
-              metascore="88"
-              plot="T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake."
-              poster="https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg"
-              production="Marvel Studios"
-              rated="PG-13"
-              ratings={
-                            Array [
-                                          Object {
-                                            "source": "Internet Movie Database",
-                                            "value": "7.7/10",
-                                          },
-                                          Object {
-                                            "source": "Rotten Tomatoes",
-                                            "value": "96%",
-                                          },
-                                          Object {
-                                            "source": "Metacritic",
-                                            "value": "88/100",
-                                          },
-                                        ]
-              }
-              released="16 Feb 2018"
-              response="True"
-              runtime="134 min"
-              title="Black Panther"
-              type="movie"
-              website="https://www.facebook.com/BlackPantherMovie/"
-              writer="Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)"
-              year="2018"
-/>,
-            <MovieCard
-              DVD="N/A"
-              a="Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe"
-              awards="N/A"
-              boxoffice="N/A"
-              country="USA"
-              director="John Krasinski"
-              genre="Drama, Horror, Sci-Fi"
-              id={5}
-              imdbID="tt6644200"
-              imdbRating="8.1"
-              imdbVotes="56,246"
-              language="English, American Sign language"
-              metascore="82"
-              plot="A family is forced to live in silence while hiding from creatures that hunt by sound."
-              poster="https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg"
-              production="Paramount Pictures"
-              rated="PG-13"
-              ratings={
-                            Array [
-                                          Object {
-                                            "source": "Internet Movie Database",
-                                            "value": "8.1/10",
-                                          },
-                                          Object {
-                                            "source": "Rotten Tomatoes",
-                                            "value": "95%",
-                                          },
-                                          Object {
-                                            "source": "Metacritic",
-                                            "value": "82/100",
-                                          },
-                                        ]
-              }
-              released="06 Apr 2018"
-              response="True"
-              runtime="90 min"
-              title="A Quiet Place"
-              type="movie"
-              website="https://www.facebook.com/AQuietPlaceMovie"
-              writer="Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)"
-              year="2018"
-/>,
-            <MovieCard
-              DVD="10 Apr 2018"
-              a="Hugh Jackman, Michelle Williams, Zac Efron, Zendaya"
-              awards="Nominated for 1 Oscar. Another 7 wins & 19 nominations."
-              boxoffice="$164,616,443"
-              country="USA"
-              director="Michael Gracey"
-              genre="Biography, Drama, Musical"
-              id={6}
-              imdbID="tt1485796"
-              imdbRating="7.8"
-              imdbVotes="106,608"
-              language="English"
-              metascore="48"
-              plot="Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation."
-              poster="https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg"
-              production="20th Century Fox"
-              rated="PG"
-              ratings={
-                            Array [
-                                          Object {
-                                            "source": "Internet Movie Database",
-                                            "value": "7.8/10",
-                                          },
-                                          Object {
-                                            "source": "Rotten Tomatoes",
-                                            "value": "55%",
-                                          },
-                                          Object {
-                                            "source": "Metacritic",
-                                            "value": "48/100",
-                                          },
-                                        ]
-              }
-              released="20 Dec 2017"
-              response="True"
-              runtime="105 min"
-              title="The Greatest Showman"
-              type="movie"
-              website="http://www.foxmovies.com/movies/the-greatest-showman"
-              writer="Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)"
-              year="2017"
-/>,
-            <MovieCard
-              DVD="N/A"
-              a="Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe"
-              awards="N/A"
-              boxoffice="N/A"
-              country="USA"
-              director="Steven Spielberg"
-              genre="Action, Adventure, Sci-Fi"
-              id={7}
-              imdbID="tt1677720"
-              imdbRating="7.8"
-              imdbVotes="107,934"
-              language="English"
-              metascore="64"
-              plot="When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune."
-              poster="https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
-              production="Warner Bros. Pictures"
-              rated="PG-13"
-              ratings={
-                            Array [
-                                          Object {
-                                            "source": "Internet Movie Database",
-                                            "value": "7.8/10",
-                                          },
-                                          Object {
-                                            "source": "Rotten Tomatoes",
-                                            "value": "74%",
-                                          },
-                                          Object {
-                                            "source": "Metacritic",
-                                            "value": "64/100",
-                                          },
-                                        ]
-              }
-              released="29 Mar 2018"
-              response="True"
-              runtime="140 min"
-              title="Ready Player One"
-              type="movie"
-              website="http://readyplayeronemovie.com/"
-              writer="Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)"
-              year="2018"
-/>,
-          ],
-          "className": "movie-list",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "1",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "22 Aug 2017",
-              "actors": "Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",
-              "awards": "Nominated for 1 Oscar. Another 12 wins & 42 nominations.",
-              "boxoffice": "$389,804,217",
-              "country": "USA",
-              "director": "James Gunn",
-              "genre": "Action, Adventure, Sci-Fi",
-              "id": 1,
-              "imdbID": "tt3896198",
-              "imdbRating": "7.7",
-              "imdbVotes": "362,736",
-              "language": "English",
-              "metascore": "67",
-              "plot": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
-              "production": "Walt Disney Pictures",
-              "rated": "PG-13",
-              "ratings": Array [
-                Object {
-                  "source": "Internet Movie Database",
-                  "value": "7.7/10",
-                },
-                Object {
-                  "source": "Rotten Tomatoes",
-                  "value": "83%",
-                },
-                Object {
-                  "source": "Metacritic",
-                  "value": "67/100",
-                },
-              ],
-              "released": "05 May 2017",
-              "response": "True",
-              "runtime": "136 min",
-              "title": "Guardians of the Galaxy Vol. 2",
-              "type": "movie",
-              "website": "https://marvel.com/guardians",
-              "writer": "James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)",
-              "year": "2017",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "2",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "N/A",
-              "a": "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans",
-              "awards": "N/A",
-              "boxoffice": "N/A",
-              "country": "USA",
-              "director": "Anthony Russo, Joe Russo",
-              "genre": "Action, Adventure, Fantasy",
-              "id": 2,
-              "imdbID": "tt4154756",
-              "imdbRating": "9.0",
-              "imdbVotes": "219,195",
-              "language": "English",
-              "metascore": "68",
-              "plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-              "production": "Walt Disney Pictures",
-              "rated": "PG-13",
-              "ratings": Array [
-                Object {
-                  "source": "Internet Movie Database",
-                  "value": "9.0/10",
-                },
-                Object {
-                  "source": "Rotten Tomatoes",
-                  "value": "84%",
-                },
-                Object {
-                  "source": "Metacritic",
-                  "value": "68/100",
-                },
-              ],
-              "released": "27 Apr 2018",
-              "response": "True",
-              "runtime": "149 min",
-              "title": "Avengers: Infinity War",
-              "type": "movie",
-              "website": "http://marvel.com/movies/movie/223/avengers_infinity_war",
-              "writer": "Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)",
-              "year": "2018",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "3",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "N/A",
-              "a": "Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson",
-              "awards": "N/A",
-              "boxoffice": "N/A",
-              "country": "USA",
-              "director": "Anna Boden, Ryan Fleck",
-              "genre": "Action, Adventure, Sci-Fi",
-              "id": 3,
-              "imdbID": "tt4154664",
-              "imdbRating": "N/A",
-              "imdbVotes": "N/A",
-              "language": "English",
-              "metascore": "N/A",
-              "plot": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg",
-              "production": "Walt Disney Pictures",
-              "rated": "N/A",
-              "ratings": Array [],
-              "released": "08 Mar 2019",
-              "response": "True",
-              "runtime": "N/A",
-              "title": "Captain Marvel",
-              "type": "movie",
-              "website": "https://www.facebook.com/CaptainMarvelOfficial/",
-              "writer": "Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)",
-              "year": "2019",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "4",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "N/A",
-              "a": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira",
-              "awards": "14 nominations.",
-              "boxoffice": "$501,105,037",
-              "country": "USA",
-              "director": "Ryan Coogler",
-              "genre": "Action, Adventure, Sci-Fi",
-              "id": 4,
-              "imdbID": "tt1825683",
-              "imdbRating": "7.7",
-              "imdbVotes": "247,680",
-              "language": "Swahili, Nama, English, Xhosa, Korean",
-              "metascore": "88",
-              "plot": "T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
-              "production": "Marvel Studios",
-              "rated": "PG-13",
-              "ratings": Array [
-                Object {
-                  "source": "Internet Movie Database",
-                  "value": "7.7/10",
-                },
-                Object {
-                  "source": "Rotten Tomatoes",
-                  "value": "96%",
-                },
-                Object {
-                  "source": "Metacritic",
-                  "value": "88/100",
-                },
-              ],
-              "released": "16 Feb 2018",
-              "response": "True",
-              "runtime": "134 min",
-              "title": "Black Panther",
-              "type": "movie",
-              "website": "https://www.facebook.com/BlackPantherMovie/",
-              "writer": "Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)",
-              "year": "2018",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "5",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "N/A",
-              "a": "Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe",
-              "awards": "N/A",
-              "boxoffice": "N/A",
-              "country": "USA",
-              "director": "John Krasinski",
-              "genre": "Drama, Horror, Sci-Fi",
-              "id": 5,
-              "imdbID": "tt6644200",
-              "imdbRating": "8.1",
-              "imdbVotes": "56,246",
-              "language": "English, American Sign language",
-              "metascore": "82",
-              "plot": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg",
-              "production": "Paramount Pictures",
-              "rated": "PG-13",
-              "ratings": Array [
-                Object {
-                  "source": "Internet Movie Database",
-                  "value": "8.1/10",
-                },
-                Object {
-                  "source": "Rotten Tomatoes",
-                  "value": "95%",
-                },
-                Object {
-                  "source": "Metacritic",
-                  "value": "82/100",
-                },
-              ],
-              "released": "06 Apr 2018",
-              "response": "True",
-              "runtime": "90 min",
-              "title": "A Quiet Place",
-              "type": "movie",
-              "website": "https://www.facebook.com/AQuietPlaceMovie",
-              "writer": "Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)",
-              "year": "2018",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "6",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "10 Apr 2018",
-              "a": "Hugh Jackman, Michelle Williams, Zac Efron, Zendaya",
-              "awards": "Nominated for 1 Oscar. Another 7 wins & 19 nominations.",
-              "boxoffice": "$164,616,443",
-              "country": "USA",
-              "director": "Michael Gracey",
-              "genre": "Biography, Drama, Musical",
-              "id": 6,
-              "imdbID": "tt1485796",
-              "imdbRating": "7.8",
-              "imdbVotes": "106,608",
-              "language": "English",
-              "metascore": "48",
-              "plot": "Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg",
-              "production": "20th Century Fox",
-              "rated": "PG",
-              "ratings": Array [
-                Object {
-                  "source": "Internet Movie Database",
-                  "value": "7.8/10",
-                },
-                Object {
-                  "source": "Rotten Tomatoes",
-                  "value": "55%",
-                },
-                Object {
-                  "source": "Metacritic",
-                  "value": "48/100",
-                },
-              ],
-              "released": "20 Dec 2017",
-              "response": "True",
-              "runtime": "105 min",
-              "title": "The Greatest Showman",
-              "type": "movie",
-              "website": "http://www.foxmovies.com/movies/the-greatest-showman",
-              "writer": "Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)",
-              "year": "2017",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "7",
-            "nodeType": "function",
-            "props": Object {
-              "DVD": "N/A",
-              "a": "Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe",
-              "awards": "N/A",
-              "boxoffice": "N/A",
-              "country": "USA",
-              "director": "Steven Spielberg",
-              "genre": "Action, Adventure, Sci-Fi",
-              "id": 7,
-              "imdbID": "tt1677720",
-              "imdbRating": "7.8",
-              "imdbVotes": "107,934",
-              "language": "English",
-              "metascore": "64",
-              "plot": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune.",
-              "poster": "https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg",
-              "production": "Warner Bros. Pictures",
-              "rated": "PG-13",
-              "ratings": Array [
-                Object {
-                  "source": "Internet Movie Database",
-                  "value": "7.8/10",
-                },
-                Object {
-                  "source": "Rotten Tomatoes",
-                  "value": "74%",
-                },
-                Object {
-                  "source": "Metacritic",
-                  "value": "64/100",
-                },
-              ],
-              "released": "29 Mar 2018",
-              "response": "True",
-              "runtime": "140 min",
-              "title": "Ready Player One",
-              "type": "movie",
-              "website": "http://readyplayeronemovie.com/",
-              "writer": "Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)",
-              "year": "2018",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <header>
-            <h1>
-                        Search
-            </h1>
-            <input
-                        onChange={[Function]}
-                        placeholder="type title to search..."
-                        type="text"
-                        value=""
-            />
-</header>,
-          <div
+          "children": <div
             className="movie-list"
 >
             <MovieCard
@@ -1312,59 +890,10 @@ ShallowWrapper {
                         year="2018"
             />
 </div>,
-        ],
-        "className": "search",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h1>
-                Search
-</h1>,
-              <input
-                onChange={[Function]}
-                placeholder="type title to search..."
-                type="text"
-                value=""
-/>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Search",
-              },
-              "ref": null,
-              "rendered": "Search",
-              "type": "h1",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "onChange": [Function],
-                "placeholder": "type title to search...",
-                "type": "text",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "header",
+          "className": "content",
         },
-        Object {
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
@@ -1992,6 +1521,1525 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="nav"
+>
+            <div
+                        className="title"
+            >
+                        <h2>
+                                    MovieRecord: 
+                                    <span />
+                        </h2>
+            </div>
+            <div
+                        className="search"
+            >
+                        <input
+                                    onChange={[Function]}
+                                    placeholder="Type title to search ..."
+                                    type="text"
+                                    value=""
+                        />
+            </div>
+            <div
+                        className="filter"
+            >
+                        <select
+                                    id="movie-filter"
+                                    name="filter"
+                                    onChange={[Function]}
+                        >
+                                    <option
+                                                selected={true}
+                                                value="title"
+                                    >
+                                                Title
+                                    </option>
+                                    <option
+                                                value="year"
+                                    >
+                                                Year
+                                    </option>
+                                    <option
+                                                value="genre"
+                                    >
+                                                Genre
+                                    </option>
+                        </select>
+            </div>
+</div>,
+          <div
+            className="content"
+>
+            <div
+                        className="movie-list"
+            >
+                        <MovieCard
+                                    DVD="22 Aug 2017"
+                                    actors="Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel"
+                                    awards="Nominated for 1 Oscar. Another 12 wins & 42 nominations."
+                                    boxoffice="$389,804,217"
+                                    country="USA"
+                                    director="James Gunn"
+                                    genre="Action, Adventure, Sci-Fi"
+                                    id={1}
+                                    imdbID="tt3896198"
+                                    imdbRating="7.7"
+                                    imdbVotes="362,736"
+                                    language="English"
+                                    metascore="67"
+                                    plot="The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+                                    production="Walt Disney Pictures"
+                                    rated="PG-13"
+                                    ratings={
+                                                Array [
+                                                            Object {
+                                                              "source": "Internet Movie Database",
+                                                              "value": "7.7/10",
+                                                            },
+                                                            Object {
+                                                              "source": "Rotten Tomatoes",
+                                                              "value": "83%",
+                                                            },
+                                                            Object {
+                                                              "source": "Metacritic",
+                                                              "value": "67/100",
+                                                            },
+                                                          ]
+                                    }
+                                    released="05 May 2017"
+                                    response="True"
+                                    runtime="136 min"
+                                    title="Guardians of the Galaxy Vol. 2"
+                                    type="movie"
+                                    website="https://marvel.com/guardians"
+                                    writer="James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)"
+                                    year="2017"
+                        />
+                        <MovieCard
+                                    DVD="N/A"
+                                    a="Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
+                                    awards="N/A"
+                                    boxoffice="N/A"
+                                    country="USA"
+                                    director="Anthony Russo, Joe Russo"
+                                    genre="Action, Adventure, Fantasy"
+                                    id={2}
+                                    imdbID="tt4154756"
+                                    imdbRating="9.0"
+                                    imdbVotes="219,195"
+                                    language="English"
+                                    metascore="68"
+                                    plot="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+                                    production="Walt Disney Pictures"
+                                    rated="PG-13"
+                                    ratings={
+                                                Array [
+                                                            Object {
+                                                              "source": "Internet Movie Database",
+                                                              "value": "9.0/10",
+                                                            },
+                                                            Object {
+                                                              "source": "Rotten Tomatoes",
+                                                              "value": "84%",
+                                                            },
+                                                            Object {
+                                                              "source": "Metacritic",
+                                                              "value": "68/100",
+                                                            },
+                                                          ]
+                                    }
+                                    released="27 Apr 2018"
+                                    response="True"
+                                    runtime="149 min"
+                                    title="Avengers: Infinity War"
+                                    type="movie"
+                                    website="http://marvel.com/movies/movie/223/avengers_infinity_war"
+                                    writer="Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)"
+                                    year="2018"
+                        />
+                        <MovieCard
+                                    DVD="N/A"
+                                    a="Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson"
+                                    awards="N/A"
+                                    boxoffice="N/A"
+                                    country="USA"
+                                    director="Anna Boden, Ryan Fleck"
+                                    genre="Action, Adventure, Sci-Fi"
+                                    id={3}
+                                    imdbID="tt4154664"
+                                    imdbRating="N/A"
+                                    imdbVotes="N/A"
+                                    language="English"
+                                    metascore="N/A"
+                                    plot="Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg"
+                                    production="Walt Disney Pictures"
+                                    rated="N/A"
+                                    ratings={Array []}
+                                    released="08 Mar 2019"
+                                    response="True"
+                                    runtime="N/A"
+                                    title="Captain Marvel"
+                                    type="movie"
+                                    website="https://www.facebook.com/CaptainMarvelOfficial/"
+                                    writer="Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)"
+                                    year="2019"
+                        />
+                        <MovieCard
+                                    DVD="N/A"
+                                    a="Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira"
+                                    awards="14 nominations."
+                                    boxoffice="$501,105,037"
+                                    country="USA"
+                                    director="Ryan Coogler"
+                                    genre="Action, Adventure, Sci-Fi"
+                                    id={4}
+                                    imdbID="tt1825683"
+                                    imdbRating="7.7"
+                                    imdbVotes="247,680"
+                                    language="Swahili, Nama, English, Xhosa, Korean"
+                                    metascore="88"
+                                    plot="T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg"
+                                    production="Marvel Studios"
+                                    rated="PG-13"
+                                    ratings={
+                                                Array [
+                                                            Object {
+                                                              "source": "Internet Movie Database",
+                                                              "value": "7.7/10",
+                                                            },
+                                                            Object {
+                                                              "source": "Rotten Tomatoes",
+                                                              "value": "96%",
+                                                            },
+                                                            Object {
+                                                              "source": "Metacritic",
+                                                              "value": "88/100",
+                                                            },
+                                                          ]
+                                    }
+                                    released="16 Feb 2018"
+                                    response="True"
+                                    runtime="134 min"
+                                    title="Black Panther"
+                                    type="movie"
+                                    website="https://www.facebook.com/BlackPantherMovie/"
+                                    writer="Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)"
+                                    year="2018"
+                        />
+                        <MovieCard
+                                    DVD="N/A"
+                                    a="Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe"
+                                    awards="N/A"
+                                    boxoffice="N/A"
+                                    country="USA"
+                                    director="John Krasinski"
+                                    genre="Drama, Horror, Sci-Fi"
+                                    id={5}
+                                    imdbID="tt6644200"
+                                    imdbRating="8.1"
+                                    imdbVotes="56,246"
+                                    language="English, American Sign language"
+                                    metascore="82"
+                                    plot="A family is forced to live in silence while hiding from creatures that hunt by sound."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg"
+                                    production="Paramount Pictures"
+                                    rated="PG-13"
+                                    ratings={
+                                                Array [
+                                                            Object {
+                                                              "source": "Internet Movie Database",
+                                                              "value": "8.1/10",
+                                                            },
+                                                            Object {
+                                                              "source": "Rotten Tomatoes",
+                                                              "value": "95%",
+                                                            },
+                                                            Object {
+                                                              "source": "Metacritic",
+                                                              "value": "82/100",
+                                                            },
+                                                          ]
+                                    }
+                                    released="06 Apr 2018"
+                                    response="True"
+                                    runtime="90 min"
+                                    title="A Quiet Place"
+                                    type="movie"
+                                    website="https://www.facebook.com/AQuietPlaceMovie"
+                                    writer="Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)"
+                                    year="2018"
+                        />
+                        <MovieCard
+                                    DVD="10 Apr 2018"
+                                    a="Hugh Jackman, Michelle Williams, Zac Efron, Zendaya"
+                                    awards="Nominated for 1 Oscar. Another 7 wins & 19 nominations."
+                                    boxoffice="$164,616,443"
+                                    country="USA"
+                                    director="Michael Gracey"
+                                    genre="Biography, Drama, Musical"
+                                    id={6}
+                                    imdbID="tt1485796"
+                                    imdbRating="7.8"
+                                    imdbVotes="106,608"
+                                    language="English"
+                                    metascore="48"
+                                    plot="Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg"
+                                    production="20th Century Fox"
+                                    rated="PG"
+                                    ratings={
+                                                Array [
+                                                            Object {
+                                                              "source": "Internet Movie Database",
+                                                              "value": "7.8/10",
+                                                            },
+                                                            Object {
+                                                              "source": "Rotten Tomatoes",
+                                                              "value": "55%",
+                                                            },
+                                                            Object {
+                                                              "source": "Metacritic",
+                                                              "value": "48/100",
+                                                            },
+                                                          ]
+                                    }
+                                    released="20 Dec 2017"
+                                    response="True"
+                                    runtime="105 min"
+                                    title="The Greatest Showman"
+                                    type="movie"
+                                    website="http://www.foxmovies.com/movies/the-greatest-showman"
+                                    writer="Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)"
+                                    year="2017"
+                        />
+                        <MovieCard
+                                    DVD="N/A"
+                                    a="Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe"
+                                    awards="N/A"
+                                    boxoffice="N/A"
+                                    country="USA"
+                                    director="Steven Spielberg"
+                                    genre="Action, Adventure, Sci-Fi"
+                                    id={7}
+                                    imdbID="tt1677720"
+                                    imdbRating="7.8"
+                                    imdbVotes="107,934"
+                                    language="English"
+                                    metascore="64"
+                                    plot="When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune."
+                                    poster="https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+                                    production="Warner Bros. Pictures"
+                                    rated="PG-13"
+                                    ratings={
+                                                Array [
+                                                            Object {
+                                                              "source": "Internet Movie Database",
+                                                              "value": "7.8/10",
+                                                            },
+                                                            Object {
+                                                              "source": "Rotten Tomatoes",
+                                                              "value": "74%",
+                                                            },
+                                                            Object {
+                                                              "source": "Metacritic",
+                                                              "value": "64/100",
+                                                            },
+                                                          ]
+                                    }
+                                    released="29 Mar 2018"
+                                    response="True"
+                                    runtime="140 min"
+                                    title="Ready Player One"
+                                    type="movie"
+                                    website="http://readyplayeronemovie.com/"
+                                    writer="Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)"
+                                    year="2018"
+                        />
+            </div>
+</div>,
+        ],
+        "className": "layout",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="title"
+>
+                <h2>
+                                MovieRecord: 
+                                <span />
+                </h2>
+</div>,
+              <div
+                className="search"
+>
+                <input
+                                onChange={[Function]}
+                                placeholder="Type title to search ..."
+                                type="text"
+                                value=""
+                />
+</div>,
+              <div
+                className="filter"
+>
+                <select
+                                id="movie-filter"
+                                name="filter"
+                                onChange={[Function]}
+                >
+                                <option
+                                                selected={true}
+                                                value="title"
+                                >
+                                                Title
+                                </option>
+                                <option
+                                                value="year"
+                                >
+                                                Year
+                                </option>
+                                <option
+                                                value="genre"
+                                >
+                                                Genre
+                                </option>
+                </select>
+</div>,
+            ],
+            "className": "nav",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  MovieRecord: 
+                  <span />
+</h2>,
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "MovieRecord: ",
+                    <span />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "MovieRecord: ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "span",
+                  },
+                ],
+                "type": "h2",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <input
+                  onChange={[Function]}
+                  placeholder="Type title to search ..."
+                  type="text"
+                  value=""
+/>,
+                "className": "search",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "placeholder": "Type title to search ...",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <select
+                  id="movie-filter"
+                  name="filter"
+                  onChange={[Function]}
+>
+                  <option
+                                    selected={true}
+                                    value="title"
+                  >
+                                    Title
+                  </option>
+                  <option
+                                    value="year"
+                  >
+                                    Year
+                  </option>
+                  <option
+                                    value="genre"
+                  >
+                                    Genre
+                  </option>
+</select>,
+                "className": "filter",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      selected={true}
+                      value="title"
+>
+                      Title
+</option>,
+                    <option
+                      value="year"
+>
+                      Year
+</option>,
+                    <option
+                      value="genre"
+>
+                      Genre
+</option>,
+                  ],
+                  "id": "movie-filter",
+                  "name": "filter",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Title",
+                      "selected": true,
+                      "value": "title",
+                    },
+                    "ref": null,
+                    "rendered": "Title",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Year",
+                      "value": "year",
+                    },
+                    "ref": null,
+                    "rendered": "Year",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Genre",
+                      "value": "genre",
+                    },
+                    "ref": null,
+                    "rendered": "Genre",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="movie-list"
+>
+              <MovieCard
+                            DVD="22 Aug 2017"
+                            actors="Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel"
+                            awards="Nominated for 1 Oscar. Another 12 wins & 42 nominations."
+                            boxoffice="$389,804,217"
+                            country="USA"
+                            director="James Gunn"
+                            genre="Action, Adventure, Sci-Fi"
+                            id={1}
+                            imdbID="tt3896198"
+                            imdbRating="7.7"
+                            imdbVotes="362,736"
+                            language="English"
+                            metascore="67"
+                            plot="The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+                            poster="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+                            production="Walt Disney Pictures"
+                            rated="PG-13"
+                            ratings={
+                                          Array [
+                                                        Object {
+                                                          "source": "Internet Movie Database",
+                                                          "value": "7.7/10",
+                                                        },
+                                                        Object {
+                                                          "source": "Rotten Tomatoes",
+                                                          "value": "83%",
+                                                        },
+                                                        Object {
+                                                          "source": "Metacritic",
+                                                          "value": "67/100",
+                                                        },
+                                                      ]
+                            }
+                            released="05 May 2017"
+                            response="True"
+                            runtime="136 min"
+                            title="Guardians of the Galaxy Vol. 2"
+                            type="movie"
+                            website="https://marvel.com/guardians"
+                            writer="James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)"
+                            year="2017"
+              />
+              <MovieCard
+                            DVD="N/A"
+                            a="Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
+                            awards="N/A"
+                            boxoffice="N/A"
+                            country="USA"
+                            director="Anthony Russo, Joe Russo"
+                            genre="Action, Adventure, Fantasy"
+                            id={2}
+                            imdbID="tt4154756"
+                            imdbRating="9.0"
+                            imdbVotes="219,195"
+                            language="English"
+                            metascore="68"
+                            plot="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+                            poster="https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+                            production="Walt Disney Pictures"
+                            rated="PG-13"
+                            ratings={
+                                          Array [
+                                                        Object {
+                                                          "source": "Internet Movie Database",
+                                                          "value": "9.0/10",
+                                                        },
+                                                        Object {
+                                                          "source": "Rotten Tomatoes",
+                                                          "value": "84%",
+                                                        },
+                                                        Object {
+                                                          "source": "Metacritic",
+                                                          "value": "68/100",
+                                                        },
+                                                      ]
+                            }
+                            released="27 Apr 2018"
+                            response="True"
+                            runtime="149 min"
+                            title="Avengers: Infinity War"
+                            type="movie"
+                            website="http://marvel.com/movies/movie/223/avengers_infinity_war"
+                            writer="Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)"
+                            year="2018"
+              />
+              <MovieCard
+                            DVD="N/A"
+                            a="Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson"
+                            awards="N/A"
+                            boxoffice="N/A"
+                            country="USA"
+                            director="Anna Boden, Ryan Fleck"
+                            genre="Action, Adventure, Sci-Fi"
+                            id={3}
+                            imdbID="tt4154664"
+                            imdbRating="N/A"
+                            imdbVotes="N/A"
+                            language="English"
+                            metascore="N/A"
+                            plot="Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+                            poster="https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg"
+                            production="Walt Disney Pictures"
+                            rated="N/A"
+                            ratings={Array []}
+                            released="08 Mar 2019"
+                            response="True"
+                            runtime="N/A"
+                            title="Captain Marvel"
+                            type="movie"
+                            website="https://www.facebook.com/CaptainMarvelOfficial/"
+                            writer="Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)"
+                            year="2019"
+              />
+              <MovieCard
+                            DVD="N/A"
+                            a="Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira"
+                            awards="14 nominations."
+                            boxoffice="$501,105,037"
+                            country="USA"
+                            director="Ryan Coogler"
+                            genre="Action, Adventure, Sci-Fi"
+                            id={4}
+                            imdbID="tt1825683"
+                            imdbRating="7.7"
+                            imdbVotes="247,680"
+                            language="Swahili, Nama, English, Xhosa, Korean"
+                            metascore="88"
+                            plot="T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake."
+                            poster="https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg"
+                            production="Marvel Studios"
+                            rated="PG-13"
+                            ratings={
+                                          Array [
+                                                        Object {
+                                                          "source": "Internet Movie Database",
+                                                          "value": "7.7/10",
+                                                        },
+                                                        Object {
+                                                          "source": "Rotten Tomatoes",
+                                                          "value": "96%",
+                                                        },
+                                                        Object {
+                                                          "source": "Metacritic",
+                                                          "value": "88/100",
+                                                        },
+                                                      ]
+                            }
+                            released="16 Feb 2018"
+                            response="True"
+                            runtime="134 min"
+                            title="Black Panther"
+                            type="movie"
+                            website="https://www.facebook.com/BlackPantherMovie/"
+                            writer="Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)"
+                            year="2018"
+              />
+              <MovieCard
+                            DVD="N/A"
+                            a="Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe"
+                            awards="N/A"
+                            boxoffice="N/A"
+                            country="USA"
+                            director="John Krasinski"
+                            genre="Drama, Horror, Sci-Fi"
+                            id={5}
+                            imdbID="tt6644200"
+                            imdbRating="8.1"
+                            imdbVotes="56,246"
+                            language="English, American Sign language"
+                            metascore="82"
+                            plot="A family is forced to live in silence while hiding from creatures that hunt by sound."
+                            poster="https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg"
+                            production="Paramount Pictures"
+                            rated="PG-13"
+                            ratings={
+                                          Array [
+                                                        Object {
+                                                          "source": "Internet Movie Database",
+                                                          "value": "8.1/10",
+                                                        },
+                                                        Object {
+                                                          "source": "Rotten Tomatoes",
+                                                          "value": "95%",
+                                                        },
+                                                        Object {
+                                                          "source": "Metacritic",
+                                                          "value": "82/100",
+                                                        },
+                                                      ]
+                            }
+                            released="06 Apr 2018"
+                            response="True"
+                            runtime="90 min"
+                            title="A Quiet Place"
+                            type="movie"
+                            website="https://www.facebook.com/AQuietPlaceMovie"
+                            writer="Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)"
+                            year="2018"
+              />
+              <MovieCard
+                            DVD="10 Apr 2018"
+                            a="Hugh Jackman, Michelle Williams, Zac Efron, Zendaya"
+                            awards="Nominated for 1 Oscar. Another 7 wins & 19 nominations."
+                            boxoffice="$164,616,443"
+                            country="USA"
+                            director="Michael Gracey"
+                            genre="Biography, Drama, Musical"
+                            id={6}
+                            imdbID="tt1485796"
+                            imdbRating="7.8"
+                            imdbVotes="106,608"
+                            language="English"
+                            metascore="48"
+                            plot="Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation."
+                            poster="https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg"
+                            production="20th Century Fox"
+                            rated="PG"
+                            ratings={
+                                          Array [
+                                                        Object {
+                                                          "source": "Internet Movie Database",
+                                                          "value": "7.8/10",
+                                                        },
+                                                        Object {
+                                                          "source": "Rotten Tomatoes",
+                                                          "value": "55%",
+                                                        },
+                                                        Object {
+                                                          "source": "Metacritic",
+                                                          "value": "48/100",
+                                                        },
+                                                      ]
+                            }
+                            released="20 Dec 2017"
+                            response="True"
+                            runtime="105 min"
+                            title="The Greatest Showman"
+                            type="movie"
+                            website="http://www.foxmovies.com/movies/the-greatest-showman"
+                            writer="Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)"
+                            year="2017"
+              />
+              <MovieCard
+                            DVD="N/A"
+                            a="Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe"
+                            awards="N/A"
+                            boxoffice="N/A"
+                            country="USA"
+                            director="Steven Spielberg"
+                            genre="Action, Adventure, Sci-Fi"
+                            id={7}
+                            imdbID="tt1677720"
+                            imdbRating="7.8"
+                            imdbVotes="107,934"
+                            language="English"
+                            metascore="64"
+                            plot="When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune."
+                            poster="https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+                            production="Warner Bros. Pictures"
+                            rated="PG-13"
+                            ratings={
+                                          Array [
+                                                        Object {
+                                                          "source": "Internet Movie Database",
+                                                          "value": "7.8/10",
+                                                        },
+                                                        Object {
+                                                          "source": "Rotten Tomatoes",
+                                                          "value": "74%",
+                                                        },
+                                                        Object {
+                                                          "source": "Metacritic",
+                                                          "value": "64/100",
+                                                        },
+                                                      ]
+                            }
+                            released="29 Mar 2018"
+                            response="True"
+                            runtime="140 min"
+                            title="Ready Player One"
+                            type="movie"
+                            website="http://readyplayeronemovie.com/"
+                            writer="Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)"
+                            year="2018"
+              />
+</div>,
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <MovieCard
+                  DVD="22 Aug 2017"
+                  actors="Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel"
+                  awards="Nominated for 1 Oscar. Another 12 wins & 42 nominations."
+                  boxoffice="$389,804,217"
+                  country="USA"
+                  director="James Gunn"
+                  genre="Action, Adventure, Sci-Fi"
+                  id={1}
+                  imdbID="tt3896198"
+                  imdbRating="7.7"
+                  imdbVotes="362,736"
+                  language="English"
+                  metascore="67"
+                  plot="The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage."
+                  poster="https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
+                  production="Walt Disney Pictures"
+                  rated="PG-13"
+                  ratings={
+                                    Array [
+                                                      Object {
+                                                        "source": "Internet Movie Database",
+                                                        "value": "7.7/10",
+                                                      },
+                                                      Object {
+                                                        "source": "Rotten Tomatoes",
+                                                        "value": "83%",
+                                                      },
+                                                      Object {
+                                                        "source": "Metacritic",
+                                                        "value": "67/100",
+                                                      },
+                                                    ]
+                  }
+                  released="05 May 2017"
+                  response="True"
+                  runtime="136 min"
+                  title="Guardians of the Galaxy Vol. 2"
+                  type="movie"
+                  website="https://marvel.com/guardians"
+                  writer="James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)"
+                  year="2017"
+/>,
+                <MovieCard
+                  DVD="N/A"
+                  a="Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
+                  awards="N/A"
+                  boxoffice="N/A"
+                  country="USA"
+                  director="Anthony Russo, Joe Russo"
+                  genre="Action, Adventure, Fantasy"
+                  id={2}
+                  imdbID="tt4154756"
+                  imdbRating="9.0"
+                  imdbVotes="219,195"
+                  language="English"
+                  metascore="68"
+                  plot="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+                  poster="https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+                  production="Walt Disney Pictures"
+                  rated="PG-13"
+                  ratings={
+                                    Array [
+                                                      Object {
+                                                        "source": "Internet Movie Database",
+                                                        "value": "9.0/10",
+                                                      },
+                                                      Object {
+                                                        "source": "Rotten Tomatoes",
+                                                        "value": "84%",
+                                                      },
+                                                      Object {
+                                                        "source": "Metacritic",
+                                                        "value": "68/100",
+                                                      },
+                                                    ]
+                  }
+                  released="27 Apr 2018"
+                  response="True"
+                  runtime="149 min"
+                  title="Avengers: Infinity War"
+                  type="movie"
+                  website="http://marvel.com/movies/movie/223/avengers_infinity_war"
+                  writer="Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)"
+                  year="2018"
+/>,
+                <MovieCard
+                  DVD="N/A"
+                  a="Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson"
+                  awards="N/A"
+                  boxoffice="N/A"
+                  country="USA"
+                  director="Anna Boden, Ryan Fleck"
+                  genre="Action, Adventure, Sci-Fi"
+                  id={3}
+                  imdbID="tt4154664"
+                  imdbRating="N/A"
+                  imdbVotes="N/A"
+                  language="English"
+                  metascore="N/A"
+                  plot="Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+                  poster="https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg"
+                  production="Walt Disney Pictures"
+                  rated="N/A"
+                  ratings={Array []}
+                  released="08 Mar 2019"
+                  response="True"
+                  runtime="N/A"
+                  title="Captain Marvel"
+                  type="movie"
+                  website="https://www.facebook.com/CaptainMarvelOfficial/"
+                  writer="Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)"
+                  year="2019"
+/>,
+                <MovieCard
+                  DVD="N/A"
+                  a="Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira"
+                  awards="14 nominations."
+                  boxoffice="$501,105,037"
+                  country="USA"
+                  director="Ryan Coogler"
+                  genre="Action, Adventure, Sci-Fi"
+                  id={4}
+                  imdbID="tt1825683"
+                  imdbRating="7.7"
+                  imdbVotes="247,680"
+                  language="Swahili, Nama, English, Xhosa, Korean"
+                  metascore="88"
+                  plot="T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake."
+                  poster="https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg"
+                  production="Marvel Studios"
+                  rated="PG-13"
+                  ratings={
+                                    Array [
+                                                      Object {
+                                                        "source": "Internet Movie Database",
+                                                        "value": "7.7/10",
+                                                      },
+                                                      Object {
+                                                        "source": "Rotten Tomatoes",
+                                                        "value": "96%",
+                                                      },
+                                                      Object {
+                                                        "source": "Metacritic",
+                                                        "value": "88/100",
+                                                      },
+                                                    ]
+                  }
+                  released="16 Feb 2018"
+                  response="True"
+                  runtime="134 min"
+                  title="Black Panther"
+                  type="movie"
+                  website="https://www.facebook.com/BlackPantherMovie/"
+                  writer="Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)"
+                  year="2018"
+/>,
+                <MovieCard
+                  DVD="N/A"
+                  a="Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe"
+                  awards="N/A"
+                  boxoffice="N/A"
+                  country="USA"
+                  director="John Krasinski"
+                  genre="Drama, Horror, Sci-Fi"
+                  id={5}
+                  imdbID="tt6644200"
+                  imdbRating="8.1"
+                  imdbVotes="56,246"
+                  language="English, American Sign language"
+                  metascore="82"
+                  plot="A family is forced to live in silence while hiding from creatures that hunt by sound."
+                  poster="https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg"
+                  production="Paramount Pictures"
+                  rated="PG-13"
+                  ratings={
+                                    Array [
+                                                      Object {
+                                                        "source": "Internet Movie Database",
+                                                        "value": "8.1/10",
+                                                      },
+                                                      Object {
+                                                        "source": "Rotten Tomatoes",
+                                                        "value": "95%",
+                                                      },
+                                                      Object {
+                                                        "source": "Metacritic",
+                                                        "value": "82/100",
+                                                      },
+                                                    ]
+                  }
+                  released="06 Apr 2018"
+                  response="True"
+                  runtime="90 min"
+                  title="A Quiet Place"
+                  type="movie"
+                  website="https://www.facebook.com/AQuietPlaceMovie"
+                  writer="Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)"
+                  year="2018"
+/>,
+                <MovieCard
+                  DVD="10 Apr 2018"
+                  a="Hugh Jackman, Michelle Williams, Zac Efron, Zendaya"
+                  awards="Nominated for 1 Oscar. Another 7 wins & 19 nominations."
+                  boxoffice="$164,616,443"
+                  country="USA"
+                  director="Michael Gracey"
+                  genre="Biography, Drama, Musical"
+                  id={6}
+                  imdbID="tt1485796"
+                  imdbRating="7.8"
+                  imdbVotes="106,608"
+                  language="English"
+                  metascore="48"
+                  plot="Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation."
+                  poster="https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg"
+                  production="20th Century Fox"
+                  rated="PG"
+                  ratings={
+                                    Array [
+                                                      Object {
+                                                        "source": "Internet Movie Database",
+                                                        "value": "7.8/10",
+                                                      },
+                                                      Object {
+                                                        "source": "Rotten Tomatoes",
+                                                        "value": "55%",
+                                                      },
+                                                      Object {
+                                                        "source": "Metacritic",
+                                                        "value": "48/100",
+                                                      },
+                                                    ]
+                  }
+                  released="20 Dec 2017"
+                  response="True"
+                  runtime="105 min"
+                  title="The Greatest Showman"
+                  type="movie"
+                  website="http://www.foxmovies.com/movies/the-greatest-showman"
+                  writer="Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)"
+                  year="2017"
+/>,
+                <MovieCard
+                  DVD="N/A"
+                  a="Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe"
+                  awards="N/A"
+                  boxoffice="N/A"
+                  country="USA"
+                  director="Steven Spielberg"
+                  genre="Action, Adventure, Sci-Fi"
+                  id={7}
+                  imdbID="tt1677720"
+                  imdbRating="7.8"
+                  imdbVotes="107,934"
+                  language="English"
+                  metascore="64"
+                  plot="When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune."
+                  poster="https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+                  production="Warner Bros. Pictures"
+                  rated="PG-13"
+                  ratings={
+                                    Array [
+                                                      Object {
+                                                        "source": "Internet Movie Database",
+                                                        "value": "7.8/10",
+                                                      },
+                                                      Object {
+                                                        "source": "Rotten Tomatoes",
+                                                        "value": "74%",
+                                                      },
+                                                      Object {
+                                                        "source": "Metacritic",
+                                                        "value": "64/100",
+                                                      },
+                                                    ]
+                  }
+                  released="29 Mar 2018"
+                  response="True"
+                  runtime="140 min"
+                  title="Ready Player One"
+                  type="movie"
+                  website="http://readyplayeronemovie.com/"
+                  writer="Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)"
+                  year="2018"
+/>,
+              ],
+              "className": "movie-list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "22 Aug 2017",
+                  "actors": "Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",
+                  "awards": "Nominated for 1 Oscar. Another 12 wins & 42 nominations.",
+                  "boxoffice": "$389,804,217",
+                  "country": "USA",
+                  "director": "James Gunn",
+                  "genre": "Action, Adventure, Sci-Fi",
+                  "id": 1,
+                  "imdbID": "tt3896198",
+                  "imdbRating": "7.7",
+                  "imdbVotes": "362,736",
+                  "language": "English",
+                  "metascore": "67",
+                  "plot": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
+                  "production": "Walt Disney Pictures",
+                  "rated": "PG-13",
+                  "ratings": Array [
+                    Object {
+                      "source": "Internet Movie Database",
+                      "value": "7.7/10",
+                    },
+                    Object {
+                      "source": "Rotten Tomatoes",
+                      "value": "83%",
+                    },
+                    Object {
+                      "source": "Metacritic",
+                      "value": "67/100",
+                    },
+                  ],
+                  "released": "05 May 2017",
+                  "response": "True",
+                  "runtime": "136 min",
+                  "title": "Guardians of the Galaxy Vol. 2",
+                  "type": "movie",
+                  "website": "https://marvel.com/guardians",
+                  "writer": "James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-lord created by), Steve Gan (Star-lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)",
+                  "year": "2017",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "N/A",
+                  "a": "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans",
+                  "awards": "N/A",
+                  "boxoffice": "N/A",
+                  "country": "USA",
+                  "director": "Anthony Russo, Joe Russo",
+                  "genre": "Action, Adventure, Fantasy",
+                  "id": 2,
+                  "imdbID": "tt4154756",
+                  "imdbRating": "9.0",
+                  "imdbVotes": "219,195",
+                  "language": "English",
+                  "metascore": "68",
+                  "plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+                  "production": "Walt Disney Pictures",
+                  "rated": "PG-13",
+                  "ratings": Array [
+                    Object {
+                      "source": "Internet Movie Database",
+                      "value": "9.0/10",
+                    },
+                    Object {
+                      "source": "Rotten Tomatoes",
+                      "value": "84%",
+                    },
+                    Object {
+                      "source": "Metacritic",
+                      "value": "68/100",
+                    },
+                  ],
+                  "released": "27 Apr 2018",
+                  "response": "True",
+                  "runtime": "149 min",
+                  "title": "Avengers: Infinity War",
+                  "type": "movie",
+                  "website": "http://marvel.com/movies/movie/223/avengers_infinity_war",
+                  "writer": "Christopher Markus (screenplay by), Stephen McFeely (screenplay by), Stan Lee (based on the Marvel comics by), Jack Kirby (based on the comics by), Joe Simon (Captain America created by), Jack Kirby (Captain America created by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Jim Starlin (Thanos,  Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Steve Englehart (Mantis created by), Don Heck (Mantis created by)",
+                  "year": "2018",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "N/A",
+                  "a": "Brie Larson, Ben Mendelsohn, Lee Pace, Samuel L. Jackson",
+                  "awards": "N/A",
+                  "boxoffice": "N/A",
+                  "country": "USA",
+                  "director": "Anna Boden, Ryan Fleck",
+                  "genre": "Action, Adventure, Sci-Fi",
+                  "id": 3,
+                  "imdbID": "tt4154664",
+                  "imdbRating": "N/A",
+                  "imdbVotes": "N/A",
+                  "language": "English",
+                  "metascore": "N/A",
+                  "plot": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BMTQ3MjIyMDQxOF5BMl5BanBnXkFtZTgwNDIxNTM2OTE@._V1_SX300.jpg",
+                  "production": "Walt Disney Pictures",
+                  "rated": "N/A",
+                  "ratings": Array [],
+                  "released": "08 Mar 2019",
+                  "response": "True",
+                  "runtime": "N/A",
+                  "title": "Captain Marvel",
+                  "type": "movie",
+                  "website": "https://www.facebook.com/CaptainMarvelOfficial/",
+                  "writer": "Anna Boden (screenplay by), Gene Colan (based on the Marvel comics by), Liz Flahive (screenplay by), Ryan Fleck (screenplay by), Meg LeFauve (screenplay by), Carly Mensch (screenplay by), Nicole Perlman (screenplay by), Geneva Robertson-Dworet (screenplay by), Roy Thomas (based on the Marvel comics by)",
+                  "year": "2019",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "N/A",
+                  "a": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira",
+                  "awards": "14 nominations.",
+                  "boxoffice": "$501,105,037",
+                  "country": "USA",
+                  "director": "Ryan Coogler",
+                  "genre": "Action, Adventure, Sci-Fi",
+                  "id": 4,
+                  "imdbID": "tt1825683",
+                  "imdbRating": "7.7",
+                  "imdbVotes": "247,680",
+                  "language": "Swahili, Nama, English, Xhosa, Korean",
+                  "metascore": "88",
+                  "plot": "T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
+                  "production": "Marvel Studios",
+                  "rated": "PG-13",
+                  "ratings": Array [
+                    Object {
+                      "source": "Internet Movie Database",
+                      "value": "7.7/10",
+                    },
+                    Object {
+                      "source": "Rotten Tomatoes",
+                      "value": "96%",
+                    },
+                    Object {
+                      "source": "Metacritic",
+                      "value": "88/100",
+                    },
+                  ],
+                  "released": "16 Feb 2018",
+                  "response": "True",
+                  "runtime": "134 min",
+                  "title": "Black Panther",
+                  "type": "movie",
+                  "website": "https://www.facebook.com/BlackPantherMovie/",
+                  "writer": "Ryan Coogler, Joe Robert Cole, Stan Lee (based on the Marvel Comics by), Jack Kirby (based on the Marvel Comics by)",
+                  "year": "2018",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "N/A",
+                  "a": "Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe",
+                  "awards": "N/A",
+                  "boxoffice": "N/A",
+                  "country": "USA",
+                  "director": "John Krasinski",
+                  "genre": "Drama, Horror, Sci-Fi",
+                  "id": 5,
+                  "imdbID": "tt6644200",
+                  "imdbRating": "8.1",
+                  "imdbVotes": "56,246",
+                  "language": "English, American Sign language",
+                  "metascore": "82",
+                  "plot": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg",
+                  "production": "Paramount Pictures",
+                  "rated": "PG-13",
+                  "ratings": Array [
+                    Object {
+                      "source": "Internet Movie Database",
+                      "value": "8.1/10",
+                    },
+                    Object {
+                      "source": "Rotten Tomatoes",
+                      "value": "95%",
+                    },
+                    Object {
+                      "source": "Metacritic",
+                      "value": "82/100",
+                    },
+                  ],
+                  "released": "06 Apr 2018",
+                  "response": "True",
+                  "runtime": "90 min",
+                  "title": "A Quiet Place",
+                  "type": "movie",
+                  "website": "https://www.facebook.com/AQuietPlaceMovie",
+                  "writer": "Bryan Woods (screenplay by), Scott Beck (screenplay by), John Krasinski (screenplay by), Bryan Woods (story by), Scott Beck (story by)",
+                  "year": "2018",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "10 Apr 2018",
+                  "a": "Hugh Jackman, Michelle Williams, Zac Efron, Zendaya",
+                  "awards": "Nominated for 1 Oscar. Another 7 wins & 19 nominations.",
+                  "boxoffice": "$164,616,443",
+                  "country": "USA",
+                  "director": "Michael Gracey",
+                  "genre": "Biography, Drama, Musical",
+                  "id": 6,
+                  "imdbID": "tt1485796",
+                  "imdbRating": "7.8",
+                  "imdbVotes": "106,608",
+                  "language": "English",
+                  "metascore": "48",
+                  "plot": "Celebrates the birth of show business, and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BYjQ0ZWJkYjMtYjJmYS00MjJiLTg3NTYtMmIzN2E2Y2YwZmUyXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg",
+                  "production": "20th Century Fox",
+                  "rated": "PG",
+                  "ratings": Array [
+                    Object {
+                      "source": "Internet Movie Database",
+                      "value": "7.8/10",
+                    },
+                    Object {
+                      "source": "Rotten Tomatoes",
+                      "value": "55%",
+                    },
+                    Object {
+                      "source": "Metacritic",
+                      "value": "48/100",
+                    },
+                  ],
+                  "released": "20 Dec 2017",
+                  "response": "True",
+                  "runtime": "105 min",
+                  "title": "The Greatest Showman",
+                  "type": "movie",
+                  "website": "http://www.foxmovies.com/movies/the-greatest-showman",
+                  "writer": "Jenny Bicks (screenplay by), Bill Condon (screenplay by), Jenny Bicks (story by)",
+                  "year": "2017",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "7",
+                "nodeType": "function",
+                "props": Object {
+                  "DVD": "N/A",
+                  "a": "Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe",
+                  "awards": "N/A",
+                  "boxoffice": "N/A",
+                  "country": "USA",
+                  "director": "Steven Spielberg",
+                  "genre": "Action, Adventure, Sci-Fi",
+                  "id": 7,
+                  "imdbID": "tt1677720",
+                  "imdbRating": "7.8",
+                  "imdbVotes": "107,934",
+                  "language": "English",
+                  "metascore": "64",
+                  "plot": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune.",
+                  "poster": "https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg",
+                  "production": "Warner Bros. Pictures",
+                  "rated": "PG-13",
+                  "ratings": Array [
+                    Object {
+                      "source": "Internet Movie Database",
+                      "value": "7.8/10",
+                    },
+                    Object {
+                      "source": "Rotten Tomatoes",
+                      "value": "74%",
+                    },
+                    Object {
+                      "source": "Metacritic",
+                      "value": "64/100",
+                    },
+                  ],
+                  "released": "29 Mar 2018",
+                  "response": "True",
+                  "runtime": "140 min",
+                  "title": "Ready Player One",
+                  "type": "movie",
+                  "website": "http://readyplayeronemovie.com/",
+                  "writer": "Zak Penn (screenplay by), Ernest Cline (screenplay by), Ernest Cline (based on the novel by)",
+                  "year": "2018",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
           "type": "div",
         },
       ],
