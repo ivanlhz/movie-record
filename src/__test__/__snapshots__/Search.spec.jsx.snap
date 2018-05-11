@@ -48,7 +48,6 @@ ShallowWrapper {
                               onChange={[Function]}
                     >
                               <option
-                                        selected={true}
                                         value="title"
                               >
                                         Title
@@ -398,7 +397,6 @@ ShallowWrapper {
                             onChange={[Function]}
               >
                             <option
-                                          selected={true}
                                           value="title"
                             >
                                           Title
@@ -502,7 +500,6 @@ ShallowWrapper {
                 onChange={[Function]}
 >
                 <option
-                                selected={true}
                                 value="title"
                 >
                                 Title
@@ -528,7 +525,6 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <option
-                    selected={true}
                     value="title"
 >
                     Title
@@ -556,7 +552,6 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Title",
-                    "selected": true,
                     "value": "title",
                   },
                   "ref": null,
@@ -1565,7 +1560,6 @@ ShallowWrapper {
                                     onChange={[Function]}
                         >
                                     <option
-                                                selected={true}
                                                 value="title"
                                     >
                                                 Title
@@ -1915,7 +1909,6 @@ ShallowWrapper {
                                 onChange={[Function]}
                 >
                                 <option
-                                                selected={true}
                                                 value="title"
                                 >
                                                 Title
@@ -2019,7 +2012,6 @@ ShallowWrapper {
                   onChange={[Function]}
 >
                   <option
-                                    selected={true}
                                     value="title"
                   >
                                     Title
@@ -2045,7 +2037,6 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <option
-                      selected={true}
                       value="title"
 >
                       Title
@@ -2073,7 +2064,6 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Title",
-                      "selected": true,
                       "value": "title",
                     },
                     "ref": null,
