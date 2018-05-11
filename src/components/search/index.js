@@ -51,9 +51,7 @@ class Search extends Component {
           </div>
           <div className="filter">
             <select onChange={this.handleFilter} name="filter" id="movie-filter">
-              <option selected value="title">
-                Title
-              </option>
+              <option value="title">Title</option>
               <option value="year">Year</option>
               <option value="genre">Genre</option>
             </select>
