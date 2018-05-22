@@ -1,24 +1,36 @@
 import React, { Component } from 'react';
 import './style.css';
 import MovieCard from '../movie-card';
-import movies from '../../data/movies.json';
+// import movies from '../../data/movies.json';
+import axios from 'axios';
 
 class Search extends Component {
   state = {
     searchTerm: '',
-    filterField: 'title'
+    filterField: 'title',
+    movies: [],
+    error: ''
+  };
+
+  componentDidMount = async () => {
+    try {
+      const response = await axios.get(
+        'https://api.themoviedb.org/3/movie/popular?api_key=6cf04af57806c9c265dde24c929954d7&language=en-US&page=1'
+      );
+      this.setState({ movies: response.data.results, error: '' });
+    } catch (apiError) {
+      this.setState({ error: 'Api error' });
+    }
   };
 
   handleSearchTerm = event => {
     this.setState({ searchTerm: event.target.value });
   };
 
-  parseJsonFile = jsonFile => JSON.parse(JSON.stringify(jsonFile));
-
   getMovies = () => {
     const searchText = this.state.searchTerm.toUpperCase();
     const filter = this.state.filterField;
-    const response = this.parseJsonFile(movies)
+    const response = this.state.movies
       .filter(movie => this.findElementByFilter(movie, searchText, filter))
       .map(movie => <MovieCard key={movie.id} {...movie} />);
 
@@ -31,6 +43,14 @@ class Search extends Component {
   };
 
   findElementByFilter = (element, text, filter) => element[filter].toUpperCase().indexOf(text) >= 0;
+
+  getContent = () => {
+    if(this.state.error.length > 0){
+      return <h2>{this.state.error}</h2>
+    }else{
+      return <div className="movie-list">{this.getMovies()}</div>
+    }
+  }
 
   render() {
     return (
@@ -59,7 +79,7 @@ class Search extends Component {
         </div>
 
         <div className="content">
-          <div className="movie-list">{this.getMovies()}</div>
+          {this.getContent()}
         </div>
       </div>
     );
