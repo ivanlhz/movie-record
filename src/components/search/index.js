@@ -51,7 +51,7 @@ class Search extends Component {
   findElementByFilter = (element, text, filter) => {
     switch (filter) {
       case 'year':
-        const term = parseInt(text);
+        const term = parseInt(text,10);
         const moveDate = new Date(element.release_date).getFullYear();
         return moveDate === term;
       case 'genre':

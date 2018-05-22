@@ -27,7 +27,7 @@ class MovieDetails extends Component {
         error: ''
       });
     } catch (apiError) {
-      this.setState({ error: `There\'s not film with id: ${movieId}` });
+      this.setState({ error: `There's not film with id: ${movieId}` });
     }
   }
   getGenres = () => this.state.genres.map(gen => gen.name).join(' ');
