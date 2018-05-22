@@ -9,6 +9,7 @@ class Search extends Component {
     searchTerm: '',
     filterField: 'title',
     movies: [],
+    genres: [],
     error: ''
   };
 
@@ -17,7 +18,12 @@ class Search extends Component {
       const response = await axios.get(
         'https://api.themoviedb.org/3/movie/popular?api_key=6cf04af57806c9c265dde24c929954d7&language=en-US&page=1'
       );
-      this.setState({ movies: response.data.results, error: '' });
+
+      const genresResponse = await axios.get(
+        'https://api.themoviedb.org/3/genre/movie/list?api_key=6cf04af57806c9c265dde24c929954d7&language=en-US'
+      );
+
+      this.setState({ movies: response.data.results, genres: genresResponse.data.genres, error: '' });
     } catch (apiError) {
       this.setState({ error: 'Api error' });
     }
@@ -42,15 +48,27 @@ class Search extends Component {
     this.getMovies();
   };
 
-  findElementByFilter = (element, text, filter) => element[filter].toUpperCase().indexOf(text) >= 0;
+  findElementByFilter = (element, text, filter) => {
+    switch (filter) {
+      case 'year':
+        const term = parseInt(text);
+        const moveDate = new Date(element.release_date).getFullYear();
+        return moveDate === term;
+      case 'genre':
+        const genreId = this.state.genres.find(gen => gen.name.toUpperCase().indexOf(text) >= 0).id;
+        return element.genre_ids.find(id => id === genreId);
+      default:
+        return element[filter].toUpperCase().indexOf(text) >= 0;
+    }
+  };
 
   getContent = () => {
-    if(this.state.error.length > 0){
-      return <h2>{this.state.error}</h2>
-    }else{
-      return <div className="movie-list">{this.getMovies()}</div>
+    if (this.state.error.length > 0) {
+      return <h2>{this.state.error}</h2>;
+    } else {
+      return <div className="movie-list">{this.getMovies()}</div>;
     }
-  }
+  };
 
   render() {
     return (
@@ -78,9 +96,7 @@ class Search extends Component {
           </div>
         </div>
 
-        <div className="content">
-          {this.getContent()}
-        </div>
+        <div className="content">{this.getContent()}</div>
       </div>
     );
   }
